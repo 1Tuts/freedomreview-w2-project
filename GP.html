@@ -19,6 +19,11 @@ div.container {
 		background-repeat:no-repeat;
 		margin:0 auto;	
 }
+div.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+}
 /*---------------- Header ---------------*/
 div.header {
 		width:auto;
@@ -28,6 +33,47 @@ div.header {
 div.main {
 		width:auto;
 		min-height:756px;	
+}
+div.up-main {
+	height:500px;
+	width:100%;
+	background-color:#999;
+}
+div.content-up-main {
+	width:652px;
+	height:inherit;
+	float:right;
+}
+div.down-main {
+	height:255px;
+	width:980px;
+	background-image:url(background-down-main.jpg);
+	background-repeat:repeat-x;
+	padding:1px 0px 0px 0px;
+}
+div.child-down-main {
+	height:119px;
+	width:800px;
+	margin:67.5px 90px;
+	border: 1px solid #B7B5B2;
+	border-top: 1px solid #999;
+	border-radius: 3px;
+	padding-top:1px;
+}
+div.child0-down-main {
+	height:100px;
+	width:250px;
+	margin-top:9.0px;
+}
+#child1-down-main {
+	float:left;
+}
+#child2-down-main {
+	float:right;
+}
+#child3-down-main {
+	margin:0px 275px;
+	margin-top:9.0px;
 }
 /*---------------- Footer --------------- */
 div.footer {
@@ -40,7 +86,19 @@ div.footer {
 <body>
 <div class="container">
 	<div class="header"></div>
-    <div class="main"></div>
+    <div class="main">
+    <div class="up-main">
+    <div class="content-up-main"></div>
+    </div>
+    <div class="down-main">
+    <div class="child-down-main">
+    <div class="child0-down-main" id="child1-down-main" ></div>
+    <div class="child0-down-main" id="child2-down-main" ></div>
+    <div class="child0-down-main" id="child3-down-main" ></div>
+    <div class="clear"></div>
+    </div>
+    </div>
+    </div>
     <div class="footer"></div>
 </div>
 </body>
