@@ -29,6 +29,67 @@ div.header {
 	width: auto;
 	min-height: 79px;
 }
+div.header-left {
+		width:380px;
+		min-height:79px;
+		float:left;
+		position:relative;	
+}
+.header-search {
+		position:absolute;
+		top:25px;
+		height:25px;
+		width:200px;
+		margin:0 10px;
+		border:1px outset buttonface;
+		border-radius:20px;
+}
+.header-sub {
+			float:left;
+			position:absolute;
+			top:25px;
+			left:220px;
+			height:28px;
+			width:40px;
+			background-color:transparent;
+			border-radius:20px;
+}	
+div.header-right {
+		width:auto;
+		min-height:79px;
+		float:right;	
+}
+div.menu {
+	height:79px;
+	position:relative;
+	top:0;
+}
+div.menu ul {
+	list-style:none;
+	width:600px;
+	margin:0 auto;
+}
+div.menu ul li {
+	float:left;
+	border-right:10px solid #FFF;
+	position:relative;
+}
+div.menu ul li a {
+	display:block;
+	padding:30px 49px;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	text-transform:capitalize;
+	color:#111;
+}
+div.menu li:hover a {
+		color:#6F3;	
+}
+div.menu  ul  li:first-child {
+	border-left:2px solid #FFF;
+}
 /*---------------- Main -----------------*/
 div.main {
 	width: auto;
@@ -85,7 +146,26 @@ div.footer {
 
 <body>
 <div class="container">
-  <div class="header"></div>
+  	<div class="header">
+    	<div class="header-left">
+        		<form>
+              <input class="header-search"  type="text" value="" name="search"  placeholder="جستجو" />
+              <input class="header-sub" type="submit" value="جستجو" name="جستجو"  onClick />
+            </form>
+        </div>
+        <div class="header-right">
+        	<div class="menu">
+   					 <ul>
+     					 <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > ارتباط با من </a> </li>
+     					 <li> <a href="#" > درباره من </a> </li>
+                         <li> <a href="#" > نقد ها </a> </li>
+                         <li> <a href="#" > خانه </a> </li>
+    				</ul>
+ 
+       		</div>
+        
+    </div>
+    </div>
   <div class="main">
     <div class="up-main">
       <div class="content-up-main"></div>
