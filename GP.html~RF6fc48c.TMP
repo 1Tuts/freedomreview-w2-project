@@ -196,7 +196,6 @@ div.child2-footer {
 	background-position:  left center;
 	padding-left:30px;
 	color:#999999;
-	text-decoration:none;
 }
 .tw {
 	background-image:url(02.jpg);
@@ -204,7 +203,6 @@ div.child2-footer {
 	background-position:  left center;
 	padding-left:30px;
 	color:#999999;
-	text-decoration:none;
 }
 .yt {
 	background-image:url(03.jpg);
@@ -212,75 +210,64 @@ div.child2-footer {
 	background-position:  left center;
 	padding-left:30px;
 	color:#999999;
-	text-decoration:none;
 }
-.felesh {
-	background-image:url(04.jpg);
-	background-repeat:no-repeat;
-	background-position:  left center;
-	padding-left:30px;
-	color:#999999;
-	text-decoration:none;
-}
+
 </style>
 </head>
 
 <body>
 <div class="container">
-<div class="header">
-  <div class="header-left">
-    <form>
-      <input class="header-search"  type="text" value="" name="search"  placeholder="جستجو" />
-      <input class="header-sub" type="image" src="Images/423.jpg" name="جستجو"  onclick="" />
-    </form>
-  </div>
-  <div class="header-right">
-    <div class="menu">
-      <ul>
-        <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > ارتباط با من </a> </li>
-        <li> <a href="#" > درباره من </a> </li>
-        <li> <a href="#" > نقد ها </a>
-          <ul>
-            <li><a href="#"> ماتریکس </a></li>
-            <li><a href="#"> جایی دیگر </a></li>
-            <li><a href="#"> لاست </a> </li>
-          </ul>
-        </li>
-        <li> <a href="#" > خانه </a> </li>
-      </ul>
+  <div class="header">
+    <div class="header-left">
+      <form>
+        <input class="header-search"  type="text" value="" name="search"  placeholder="جستجو" />
+        <input class="header-sub" type="image" src="Images/423.jpg" name="جستجو"  onclick="" />
+      </form>
+    </div>
+    <div class="header-right">
+      <div class="menu">
+        <ul>
+          <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > ارتباط با من </a> </li>
+          <li> <a href="#" > درباره من </a> </li>
+          <li> <a href="#" > نقد ها </a>
+            <ul>
+              <li><a href="#"> ماتریکس </a></li>
+              <li><a href="#"> جایی دیگر </a></li>
+              <li><a href="#"> لاست </a> </li>
+            </ul>
+          </li>
+          <li> <a href="#" > خانه </a> </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-<div class="main">
-  <div class="up-main">
-    <div class="content-up-main"></div>
-  </div>
-  <div class="down-main">
-    <div class="child-down-main">
-      <div class="child0-down-main" id="child1-down-main" ></div>
-      <div class="child0-down-main" id="child2-down-main" ></div>
-      <div class="child0-down-main" id="child3-down-main" ></div>
-      <div class="clear"></div>
+  <div class="main">
+    <div class="up-main">
+      <div class="content-up-main"></div>
+    </div>
+    <div class="down-main">
+      <div class="child-down-main">
+        <div class="child0-down-main" id="child1-down-main" ></div>
+        <div class="child0-down-main" id="child2-down-main" ></div>
+        <div class="child0-down-main" id="child3-down-main" ></div>
+        <div class="clear"></div>
+      </div>
     </div>
   </div>
-</div>
-<div class="footer">
-<div class="mum-footer">
-<div class="child1-footer"></div>
-<div class="child2-footer">
-<p >Beyond HTC.com</p>
-<h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
-<ul style="float:left; width:170px" >
-<li ><a style=" display:inline; line-height:25px; " href="http://www.facebook.com" class="fb"><span>HTC on Facebook</span></a></li>
-<li><a style=" display:inline;line-height:25px; " href="http://www.twitter.com" class="tw"><span>HTC on Facebook</span></a></li>
-<li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="yt"><span>HTC on Facebook</span></a></li>
-<ul style=" margin:-74px 200px; width:150px " >
-  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>HTCDEV.com</span></a></li>
-  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>HTCsense.com</span></a></li>
-</ul>
-</div>
-</div>
-</div>
+  <div class="footer">
+    <div class="mum-footer">
+      <div class="child1-footer"></div>
+      <div class="child2-footer"> 
+      		<p >Beyond HTC.com</p>
+            <h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
+            <ul>
+            <li><a style=" display:inline; " href="http://www.facebook.com" class="fb"><span>HTC on Facebook</span></a></li><br />
+            <li><a style=" display:inline; " class="tw"><span>HTC on Facebook</span></a></li><br />
+            <li><a style=" display:inline; " class="yt"><span>HTC on Facebook</span></a></li>
+            
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
