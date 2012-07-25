@@ -1,13 +1,13 @@
-##Freedom-Review
+##freedom-review
 
 
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Freedom-Review/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/freedom-review/issues)
 
 * Clone this project and check source code
 ```
-    git clone https://github.com/1schools-projects/Freedom-Review.git
+    git clone https://github.com/1schools-projects/freedom-review.git
 ```
 
 * Fork this for your self and do some develope and pull request to us ;)
