@@ -216,31 +216,36 @@ div.footer-ch131 {
 	width:141px;
 	height:43px;
 	float:left;
+	background-image:url(Images/31.jpg);
 }
 div.footer-ch132 {
 	width:141px;
 	height:43px;
 	float:left;
+	background-image:url(Images/32.jpg);
 }
 div.footer-ch133 {
 	width:141px;
 	height:43px;
-	margin-left:282px;
+	margin-left:282px;	background-image:url(Images/33.jpg);
 }
 div.footer-ch134 {
 	width:141px;
 	height:43px;
 	float:left;
+		background-image:url(Images/34.jpg);
 }
 div.footer-ch135 {
 	width:141px;
 	height:43px;
 	float:left;
+		background-image:url(Images/35.jpg);
 }
 div.footer-ch136 {
 	width:141px;
 	height:43px;
 	margin-left:282px;
+		background-image:url(Images/36.jpg);
 }
 /*--------------payane div haye seryalha------------*/
 div.child2-footer {
@@ -349,16 +354,16 @@ a:hover {
 <div class="child1-footer">
   <p  style=" direction: rtl; text-align:right;">دانلود سریال</p>
   <h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
-  <div class="footer-ch131"><a href="http://iranfilm11.com/category/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-bedlam/#"><img  src="Images/31.jpg"  alt="bedlam"/></a></div>
-  <div class="footer-ch132"><a href="http://iranfilm11.com/category/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-bones/"><img src="Images/32.jpg"  alt="bones"/></a></div>
-  <div class="footer-ch133"><a href="http://iranfilm11.com/1391/03/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-burn-notice/"><img src="Images/33.jpg"  alt="burn notice"/></a></div>
+  <div class="footer-ch131"></div>
+  <div class="footer-ch132"></div>
+  <div class="footer-ch133"></div>
   <h6>&nbsp;</h6>
-  <div class="footer-ch134"><a href="http://iranfilm11.com/category/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-common-law/"><img src="Images/34.jpg"  alt="common law"/></a></div>
-  <div class="footer-ch135"><a href="http://iranfilm11.com/1391/03/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-continuum/"><img src="Images/35.jpg"  alt="continuum"/></a></div>
-  <div class="footer-ch136"><a href="http://iranfilm11.com/category/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C/%D8%B3%D8%B1%DB%8C%D8%A7%D9%84-castle/"><img src="Images/36.jpg"  alt="castle"/></a></div>
+  <div class="footer-ch134"></div>
+  <div class="footer-ch135"></div>
+  <div class="footer-ch136"></div>
 </div>
 <div class="child2-footer" >
-<p  style=" direction: rtl; text-align:right; ">راههای ارتباطی با ما</p>
+<p  style=" direction: rtl; text-align:right;">راههای ارتباطی با ما</p>
 <h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
 <ul style="float:left; width:170;" >
 <li ><a style=" display:inline; line-height:25px; " href="http://www.facebook.com" class="fb"><span>ارتباط در فیس بوک</span></a></li>
