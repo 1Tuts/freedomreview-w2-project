@@ -126,12 +126,12 @@ div.menu li li a {
 /*---------------- Main -----------------*/
 div.main {
 	width: auto;
-	min-height: 756px;
+	height: 756px;
 }
 div.up-main {
 	height: 500px;
 	width: 100%;
-	background-color: #999;
+	background-color:;
 }
 div.content-left-up-main {
 	width: 652px;
@@ -143,20 +143,40 @@ div.content-right-up-main {
 	height: inherit;
 	float: right;
 }
-.p-up-main {
+.matrix--2 {
+	display:none;
+}
+.jayi-digar {
+	display:none;
+}
+.lost--2 {
+	display:none;
+}
+.lost, .matrix, .jaee-digar {
+	width:328px;
+	height:166.66px;
+}
+.lost p, .matrix p, .jaee-digar p {
+	direction:rtl;
+	text-align:right;
+	line-height:25px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.lost a, .matrix a, .jaee-digar a {
+	text-decoration: none;
+	color:#000;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 24px;
-	line-height: 100px;
-	text-align: center;
-	margin-top: 81px;
+	display:block;
+	text-align:center;
 }
-.p-up-main-a {
-	text-decoration: none;
-	color: #FFF;
-}
-.p-up-main-a:hover {
+.content-right-up-main p a:hover {
 	font-size: 36px;
-	color: #000;
+	color:#666;
+}
+.lost p a:hover img {
+	display:block;
+	color:#0F0;
 }
 div.down-main {
 	height: 255px;
@@ -326,13 +346,37 @@ a:hover {
     </div>
   </div>
 </div>
+<!--start main-------------------------------------------------------------------------------------->
 <div class="main">
   <div class="up-main">
-    <div class="content-left-up-main"> <img src="Images/one-image-of-content.jpg" width="652" height="500" /> </div>
+    <div class="content-left-up-main">
+    	<img class="one-image" src="Images/one-image-of-content.jpg" width="652" height="500" />
+        <img class="lost--2" src="Images/lost--2.jpg" width="652" height="500" />
+    	<img class="matrix--2" src="Images/matrix--2.jpg" width="652" height="500" />
+        <img class="jayi-digar" src="Images/jayi-digar.jpg" width="652" height="500" />
+    </div>
     <div class="content-right-up-main">
-      <p class="p-up-main"> <a class="p-up-main-a" href="#" >لاست</a> </br>
-        <a class="p-up-main-a" href="#" >ماتریکس</a> </br>
-        <a class="p-up-main-a" href="#" >جایی دیگر</a> </p>
+    	<div class="lost">
+      	<p> <a class="lost-a" href="#" >لاست</a><br/>
+        
+		 گمشدگان یا لاست (Lost) مجموعه‌ای تلویزیونی است که پخش آن از ۲۲ سپتامبر ۲۰۰۴ از شبکه ABC آمریکا و تعداد زیادی از شبکه‌های خارجی آغاز شد...
+        
+        </p>
+        </div>
+        <div class="matrix">
+        <p> <a class="matrix-a" href="#" >ماتریکس</a><br/>
+        
+        ماتریکس فیلمی علمی- تخیلی به نویسندگی و کارگردانی برادران واچوفسکی است که در سال ۱۹۹۹اکران شد...
+        
+        </p>
+        </div>
+        <div class="jaee-digar">
+        <p> <a class="jaee-digar-a" href="#" >جایی دیگر</a><br/>
+        
+        جمعي از چند زن و مرد جوان در خانه اي ويلايي در يك جزيره در حال احضار ارواح هستند...
+        
+        </p>
+        </div>
     </div>
   </div>
   <div class="down-main">
@@ -344,6 +388,7 @@ a:hover {
     </div>
   </div>
 </div>
+<!--start main-------------------------------------------------------------------------------------->
 <div class="footer">
 <div class="mum-footer">
 <div class="child1-footer">
