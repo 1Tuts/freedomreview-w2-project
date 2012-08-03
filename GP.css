@@ -6,7 +6,7 @@
 	padding: 0;
 }
 div {
-	outline: 1px dotted #000;
+	outline:
 }
 div.container {
 	background-image: url(htc.jpg);
@@ -166,15 +166,11 @@ div.content-right-up-main {
 	display:block;
 	text-align:center;
 	font-weight:bold;
+	width:100px;
+	margin:auto auto;
 }
-.lost-a:hover {
+.lost-a:hover, .matrix-a:hover, .jaee-digar-a:hover {
 	text-shadow:2px 2px #063;	
-}
-.matrix-a:hover {
-	text-shadow:2px 2px #063;	
-}
-.jaee-digar-a:hover {
-	text-shadow:2px 2px #063;
 }
 .bishtar {
 	text-decoration:none;
@@ -208,6 +204,7 @@ div.child0-down-main {
 	text-align:right;
 	font-family:Tahoma, Geneva, sans-serif;
 	line-height:30px;
+	font-size:14px;
 }
 #child2-down-main {
 	float: right;
