@@ -313,12 +313,12 @@ div.child2-footer {
 	height:52px;
 	margin:-30px 80px;
 	background-image:url(amin.jpg);
-}*/
+}
 .copy {
 	width:570px;
 	height:35px;
 	margin:-35px 170px;
-}
+}*/
 a:hover {
 	outline: none;
 	border-bottom:none;
