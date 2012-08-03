@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	outline: 1px dotted #000;
+}
+div.container {
+	background-image: url(htc.jpg);
+	width: 980px;
+	height: 1097px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+div.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+}
+/*---------------- Header ---------------*/
+div.header {
+	width: auto;
+	min-height: 79px;
+}
+div.header-left {
+	width: 380px;
+	min-height: 79px;
+	float: left;
+	position: relative;
+}
+/*---------------- Search Tab ---------------*/
+.header-search {
+	position: absolute;
+	top: 25px;
+	height: 25px;
+	width: 200px;
+	margin: 0 10px;
+	border: 1px outset buttonface;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.header-sub {
+	float: left;
+	position: absolute;
+	top: 25px;
+	left: 220px;
+	height: 28px;
+	width: 55px;
+	background-color: transparent;
+	border-radius: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*---------------- Search Tab ---------------*/
+div.header-right {
+	width: auto;
+	min-height: 79px;
+	float: right;
+}
+/*---------------- Menu ---------------*/
+div.menu {
+	height: 79px;
+	position: relative;
+	top: 0;
+}
+div.menu > ul {
+	list-style: none;
+	width: 600px;
+	margin: 0 auto;
+}
+div.menu ul li {
+	float: left;
+	border-right: 10px solid #FFF;
+	position: relative;
+}
+div.menu ul li a {
+	display: block;
+	padding: 30px 42px;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #111;
+}
+div.menu > ul > li:hover a {
+	color: #6F3;
+}
+div.menu > ul > li:first-child {
+	border-left: 2px solid #FFF;
+}
+/*---------------- Sub-Menu ---------------*/
+div.menu li ul {
+	list-style-type: none;
+	display: none;
+	position: absolute;
+	top: 42px;
+	left: 0;
+	border-top: 3px solid transparent;
+}
+div.menu li:hover ul {
+	display: block;
+	min-width: 100%;
+}
+div.menu li li {
+	float: none;
+	background-color: #B21;
+	border-radius: 0 70px 0 50px;
+}
+div.menu li li:hover a {
+	color: #00F;
+}
+div.menu li li a {
+	white-space: nowrap;
+}
+/*---------------- Sub-Menu ---------------*/
+/*---------------- Menu ---------------*/
+/*---------------- Main -----------------*/
+div.main {
+	width: auto;
+	height: 756px;
+}
+div.up-main {
+	height: 500px;
+	width: 100%;
+	background-color:;
+}
+div.content-left-up-main {
+	width: 652px;
+	height: inherit;
+	float: left;
+}
+div.content-right-up-main {
+	width: 328px;
+	height: inherit;
+	float: right;
+}
+.matrix--2 {
+	display:none;
+}
+.jayi-digar {
+	display:none;
+}
+.lost--2 {
+	display:none;
+}
+.lost, .matrix, .jaee-digar {
+	width:328px;
+	height:166.66px;
+}
+.lost p, .matrix p, .jaee-digar p {
+	direction:rtl;
+	text-align:right;
+	line-height:25px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.lost-a, .matrix-a, .jaee-digar-a {
+	text-decoration: none;
+	color:#000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+}
+.lost-a:hover {
+	text-shadow:2px 2px #063;	
+}
+.matrix-a:hover {
+	text-shadow:2px 2px #063;	
+}
+.jaee-digar-a:hover {
+	text-shadow:2px 2px #063;
+}
+.bishtar {
+	text-decoration:none;
+}
+div.down-main {
+	height: 255px;
+	width: 980px;
+	background-image: url(Images/background-down-main.jpg);
+	background-repeat: repeat-x;
+	padding: 1px 0px 0px 0px;
+}
+div.child-down-main {
+	height: 119px;
+	width: 800px;
+	margin: 67.5px 90px;
+	border: 1px solid #B7B5B2;
+	border-top: 1px solid #999;
+	border-radius: 10px;
+	padding-top: 1px;
+}
+div.child0-down-main {
+	height: 100px;
+	width: 250px;
+	margin-top: 9.0px;
+}
+#child1-down-main {
+	float: left;
+}
+#child2-down-main {
+	float: right;
+}
+#child3-down-main {
+	margin: 0px 275px;
+	margin-top: 9.0px;
+}
+/*---------------- Footer --------------- */
+div.footer {
+	width: auto;
+	min-height: 261px;
+	padding: 1px 0px 0px 0px;
+}
+div.mum-footer {
+	height: 156px;
+	width: 883px;
+	margin: 39.5px 46px;
+	border: 1px solid #B7B5B2;
+	border-top: 1px solid #999;
+	border-radius: 10px;
+	padding-top: 1px;
+}
+div.child1-footer {
+	height: 135px;
+	width: 425px;
+	margin: 10px 10px;
+	float: left;
+}
+/*--------------div haye seryalha------------*/
+/*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
+div.footer-ch131 {
+	width:141px;
+	height:43px;
+	float:left;
+}
+div.footer-ch132 {
+	width:141px;
+	height:43px;
+	float:left;
+}
+div.footer-ch133 {
+	width:141px;
+	height:43px;
+	margin-left:282px;
+}
+div.footer-ch134 {
+	width:141px;
+	height:43px;
+	float:left;
+}
+div.footer-ch135 {
+	width:141px;
+	height:43px;
+	float:left;
+}
+div.footer-ch136 {
+	width:141px;
+	height:43px;
+	margin-left:282px;
+}
+/*--------------payane div haye seryalha------------*/
+div.child2-footer {
+	height: 135px;
+	width: 427px;
+	margin-left: 445px;
+	margin-top: 10px;
+}
+.fb {
+	background-image: url(01.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	color: #999999;
+	text-decoration: none;
+}
+.tw {
+	background-image: url(02.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	color: #999999;
+	text-decoration: none;
+}
+.yt {
+	background-image: url(03.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	color: #999999;
+	text-decoration: none;
+}
+.felesh {
+	background-image: url(04.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	color: #999999;
+	text-decoration: none;
+}
+/*.amin {
+	width:83px;
+	height:52px;
+	margin:-30px 80px;
+	background-image:url(amin.jpg);
+}
+.copy {
+	width:570px;
+	height:35px;
+	margin:-35px 170px;
+}*/
+a:hover {
+	outline: none;
+	border-bottom:none;
+	text-shadow:#000;
+}
+
