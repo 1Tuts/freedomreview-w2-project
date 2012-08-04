@@ -14,7 +14,7 @@ div {
 div.container {
 	background-image: url();
 	width: 980px;
-	height: 1097px;
+	height: auto;
 	background-position: top center;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -23,6 +23,10 @@ div.clear {
 	width: 0;
 	height: 0;
 	clear: both;
+}
+div.up-header {
+	width: 980px;
+	height: 133px;
 }
 /*---------------- Header ---------------*/
 div.header {
@@ -122,7 +126,7 @@ div.menu li li a {
 }
 /*---------------- Sub-Menu ---------------*/
 /*---------------- Menu ---------------*/
-/*---------------- Main ---------------MAMir------------*/
+/*---------------- Main MAMir---------------------------*/
 div.main {
 	width: auto;
 	height: 756px;
@@ -134,37 +138,25 @@ div.up-main {
 }
 div.content-left-up-main {
 	width: 652px;
-	height: inherit;
+	height: 500px;
 	float: left;
 }
 div.content-right-up-main {
 	width: 328px;
-	height: inherit;
+	height: 500px;
 	float: right;
 	background-image: url(Images/back-2.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
-.matrix--2 {
-	display: none;
-}
-.jayi-digar {
-	display: none;
-}
-.lost--2 {
-	display: none;
-}
 .lost, .matrix, .jaee-digar {
 	width: 328px;
 	height: 166.66px;
-}
-.matrix, .lost, .jaee-digar {
-	border: dotted 5px gray;
+	border: dotted 3px gray;
 	-moz-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
 	-o-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
-	-webkit-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
-	border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
-	height: 155px;
+	-webkit-border-image: url(Images/border.jpg) 5 1 5 10 stretch stretch;
+	border-image: url(Images/border.jpg) 5 1 5 10 stretch stretch;
 	margin-bottom: 5px;
 }
 .lost p, .matrix p, .jaee-digar p {
@@ -172,7 +164,7 @@ div.content-right-up-main {
 	text-align: right;
 	line-height: 25px;
 	font-family: Tahoma, Geneva, sans-serif;
-	margin-right: 2px;
+	margin-right: 5px;
 }
 .lost-a, .matrix-a, .jaee-digar-a {
 	text-decoration: none;
@@ -206,7 +198,7 @@ div.content-right-up-main {
 div.down-main {
 	height: 255px;
 	width: 980px;
-	background-image: url(Images/background-down-main.jpg);
+	background-image: url();
 	background-repeat: repeat-x;
 	padding: 1px 0px 0px 0px;
 	margin-top: 10px;
@@ -280,7 +272,7 @@ div.child0-down-main img:hover {
 	margin: 0px 275px;
 	margin-top: 9.0px;
 }
-/*---------------- End Main----------------------MAMir--------- */
+/*---------------- End Main MAMir------------------------------- */
 /*---------------- Footer --------------- */
 div.footer {
 	width: auto;
