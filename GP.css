@@ -152,6 +152,12 @@ div.content-right-up-main {
 	width:328px;
 	height:166.66px;
 }
+.matrix {
+	border:solid 5px gray;
+	border-image:url(Images/border.jpg) 5 1 5 5 stretch stretch;
+	height:155px;
+	margin-bottom:5px;
+}
 .lost p, .matrix p, .jaee-digar p {
 	direction:rtl;
 	text-align:right;
@@ -161,19 +167,26 @@ div.content-right-up-main {
 .lost-a, .matrix-a, .jaee-digar-a {
 	text-decoration: none;
 	color:#000;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 18px;
+	font-family:Metal Mania;
+	font-size: 31px;
 	display:block;
 	text-align:center;
 	font-weight:bold;
-	width:100px;
+	width:90px;
 	margin:auto auto;
+}
+.jaee-digar-a {
+	width:207px;
 }
 .lost-a:hover, .matrix-a:hover, .jaee-digar-a:hover {
 	text-shadow:2px 2px #063;	
 }
 .bishtar {
 	text-decoration:none;
+	font-size:12px;
+}
+.bishtar:hover {
+	text-decoration:underline;
 }
 div.down-main {
 	height: 255px;
