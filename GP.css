@@ -122,7 +122,7 @@ div.menu li li a {
 }
 /*---------------- Sub-Menu ---------------*/
 /*---------------- Menu ---------------*/
-/*---------------- Main -----------------*/
+/*---------------- Main ---------------MAMir------------*/
 div.main {
 	width: auto;
 	height: 756px;
@@ -226,9 +226,45 @@ div.child0-down-main {
 	height: 100px;
 	width: 250px;
 	margin-top: 9.0px;
+	position:relative;
 }
 #child1-down-main, .child-matrix, .child-lost, .child-jaee-digar {
 	float: left;
+}
+div.child0-down-main img:hover {
+	opacity:0.7;
+}
+#child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
+	visibility:visible;
+	font-size: 50px;
+	font-family:Metal Mania;
+	color:#000;
+	transform:rotate(-30deg);
+	-ms-transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+	-o-transform:rotate(-30deg);
+	-moz-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+.pos-p {
+	position:absolute;
+	top:30px;
+	left:100px;
+	color:#000;
+	text-shadow:2px 2px #063;
+	visibility:hidden;
+}
+.pos-p-lost {
+	left:120px;
+}
+.pos-p-else {
+	left:50px;
+}
+.child-matrix p {
+	font-size:20px;
 }
 .child0-down-main p {
 	direction:rtl;
@@ -244,6 +280,7 @@ div.child0-down-main {
 	margin: 0px 275px;
 	margin-top: 9.0px;
 }
+/*---------------- End Main----------------------MAMir--------- */
 /*---------------- Footer --------------- */
 div.footer {
 	width: auto;
