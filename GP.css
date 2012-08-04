@@ -5,11 +5,14 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-image:;
+}
 div {
 	outline:
 }
 div.container {
-	background-image: url(htc.jpg);
+	background-image:url();
 	width: 980px;
 	height: 1097px;
 	background-position: top center;
@@ -138,6 +141,9 @@ div.content-right-up-main {
 	width: 328px;
 	height: inherit;
 	float: right;
+	background-image:url(Images/back-2.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
 }
 .matrix--2 {
 	display:none;
@@ -152,8 +158,11 @@ div.content-right-up-main {
 	width:328px;
 	height:166.66px;
 }
-.matrix {
-	border:solid 5px gray;
+.matrix, .lost, .jaee-digar {
+	border:dotted 5px gray;
+	-moz-border-image:url(Images/border.jpg) 5 1 5 5 stretch stretch;
+	-o-border-image:url(Images/border.jpg) 5 1 5 5 stretch stretch;
+	-webkit-border-image:url(Images/border.jpg) 5 1 5 5 stretch stretch;
 	border-image:url(Images/border.jpg) 5 1 5 5 stretch stretch;
 	height:155px;
 	margin-bottom:5px;
@@ -163,6 +172,7 @@ div.content-right-up-main {
 	text-align:right;
 	line-height:25px;
 	font-family: Tahoma, Geneva, sans-serif;
+	margin-right:2px;
 }
 .lost-a, .matrix-a, .jaee-digar-a {
 	text-decoration: none;
@@ -174,12 +184,17 @@ div.content-right-up-main {
 	font-weight:bold;
 	width:90px;
 	margin:auto auto;
+	text-shadow:2px 2px #063;
 }
 .jaee-digar-a {
 	width:207px;
 }
 .lost-a:hover, .matrix-a:hover, .jaee-digar-a:hover {
-	text-shadow:2px 2px #063;	
+	color:#FFF;
+	-moz-transition:all 0.4s linear;
+	-webkit-transition:all 0.4s linear;
+	-ms-transition:all 0.4s linear;
+	-o-transition:all 0.4s linear;	
 }
 .bishtar {
 	text-decoration:none;
@@ -194,6 +209,7 @@ div.down-main {
 	background-image: url(Images/background-down-main.jpg);
 	background-repeat: repeat-x;
 	padding: 1px 0px 0px 0px;
+	margin-top:10px;
 }
 div.child-down-main {
 	height: 119px;
@@ -203,6 +219,8 @@ div.child-down-main {
 	border-top: 1px solid #999;
 	border-radius: 10px;
 	padding-top: 1px;
+	background-image:url(Images/back-3.jpg);
+	background-repeat:no-repeat;
 }
 div.child0-down-main {
 	height: 100px;
