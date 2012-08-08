@@ -177,9 +177,10 @@ div.content-right-up-main {
 	width: 90px;
 	margin: auto auto;
 	text-shadow: 2px 2px #063;
-}
-.jaee-digar-a {
-	width: 207px;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
 }
 .lost-a:hover, .matrix-a:hover, .jaee-digar-a:hover {
 	color: #FFF;
@@ -187,6 +188,9 @@ div.content-right-up-main {
 	-webkit-transition: all 0.4s linear;
 	-ms-transition: all 0.4s linear;
 	-o-transition: all 0.4s linear;
+}
+.jaee-digar-a {
+	width: 207px;
 }
 .bishtar {
 	text-decoration: none;
@@ -204,27 +208,44 @@ div.down-main {
 	margin-top: 10px;
 }
 div.child-down-main {
-	height: 119px;
+	height: 105px;
 	width: 800px;
 	margin: 67.5px 90px;
 	border: 1px solid #B7B5B2;
-	border-top: 1px solid #999;
 	border-radius: 10px;
-	padding-top: 1px;
+	padding-top: 11px;
 	background-image: url(Images/back-3.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {
 	height: 100px;
 	width: 250px;
-	margin-top: 9.0px;
+	margin-top: 0px;
 	position: relative;
 }
-#child1-down-main, .child-matrix, .child-lost, .child-jaee-digar {
-	float: left;
+.child0-down-main a, #child1-down-main {
+	float:left;
 }
 div.child0-down-main img:hover {
 	opacity: 0.7;
+}
+div.child0-down-main a p {
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	font-family: Metal Mania;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	color: #000;
+	text-shadow: 2px 2px #063;
+	visibility: hidden;
+	font-family: Metal Mania;
+	font-size:9px;
+}
+div.child0-down-main a {
+	text-decoration:none;
 }
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
@@ -236,27 +257,18 @@ div.child0-down-main img:hover {
 	-moz-transform: rotate(-30deg);
 	-webkit-transform: rotate(-30deg);
 	-o-transform: rotate(-30deg);
-	-moz-transition: all 0.5s linear;
-	-webkit-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
 }
-.pos-p {
-	position: absolute;
-	top: 30px;
-	left: 100px;
-	color: #000;
-	text-shadow: 2px 2px #063;
-	visibility: hidden;
-}
-.pos-p-lost {
+#child2-down-main a p {
 	left: 120px;
 }
-.pos-p-else {
-	left: 50px;
-}
-.child-matrix p {
-	font-size: 20px;
+#child3-down-main a p {
+	top:25px;
+	left: 40px;
+	line-height:40px;
 }
 .child0-down-main p {
 	direction: rtl;
@@ -270,7 +282,7 @@ div.child0-down-main img:hover {
 }
 #child3-down-main {
 	margin: 0px 275px;
-	margin-top: 9.0px;
+	margin-top: 0px;
 }
 /*---------------- End Main MAMir------------------------------- */
 /*---------------- Footer --------------- */
