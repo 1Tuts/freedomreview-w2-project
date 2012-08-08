@@ -131,6 +131,8 @@ div.main {
 	width: auto;
 	height: 756px;
 }
+/*
+
 div.up-main {
 	height: 500px;
 	width: 100%;
@@ -195,6 +197,8 @@ div.content-right-up-main {
 .bishtar:hover {
 	text-decoration: underline;
 }
+
+*/
 div.down-main {
 	height: 255px;
 	width: 980px;
@@ -334,7 +338,7 @@ div.child2-footer {
 	margin-top: 10px;
 }
 .fb {
-	background-image: url(01.jpg);
+	background-image: url(Images/01.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -342,7 +346,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .tw {
-	background-image: url(02.jpg);
+	background-image: url(Images/02.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -350,7 +354,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .yt {
-	background-image: url(03.jpg);
+	background-image: url(Images/03.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -358,7 +362,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .felesh {
-	background-image: url(04.jpg);
+	background-image: url(Images/04.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
