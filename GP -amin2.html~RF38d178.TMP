@@ -1,0 +1,199 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>نقد آزادی</title>
+<link rel="stylesheet" type="text/css" href="Reset.css" />
+<link rel="stylesheet" type="text/css" href="GP.css" />
+<link href='http://fonts.googleapis.com/css?family=Metal+Mania' rel='stylesheet' type='text/css'>
+<style type="text/css">
+
+div {outline: dashed 1px #000000;}
+
+#f_container1 {
+	position: relative;
+	margin: 100px 50px;
+	width: auto;
+	height: 756px;
+	z-index: 1;
+}
+.face1.back1 {
+	display: none;
+}
+#f_container1 {
+	-webkit-perspective: 1000;
+}
+#f_card1 {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1.0s linear;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: all 1.0s linear;
+	-o-transform-style: preserve-3d;
+	-o-transition: all 1.0s linear;
+	-ms-transform-style: preserve-3d;
+	-ms-transition: all 1.0s linear;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+}
+#f_container1:hover #f_card1 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.face1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.face1.back1 {
+	display: block;
+	-webkit-transform: rotateY(180deg);
+	-webkit-box-sizing: border-box;
+	-moz-transform: rotateY(180deg);
+	-moz-box-sizing: border-box;
+	-o-transform: rotateY(180deg);
+	-o-box-sizing: border-box;
+	-ms-transform: rotateY(180deg);
+	-ms-box-sizing: border-box;
+	transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background-color: #aaa;
+}
+.ax-bala {margin:100px 50px;width: 350px;
+	height: 250px; }
+
+.matn {margin: 100px 400px;width: 350px;
+	height: 250px; }
+
+
+
+</style>
+
+
+</head>
+
+<body>
+<div class="container">
+<div class="up-header"><img src="Images/header.jpg" width="980" height="133" /> </div>
+<div class="header">
+  <div class="header-left">
+    <form>
+      <input class="header-search"  type="text" value="" name="search"  placeholder="جستجو" />
+      <input class="header-sub" type="image" src="Images/423.jpg" name="جستجو"  onclick="" />
+    </form>
+  </div>
+  <div class="header-right">
+    <div class="menu">
+      <ul>
+        <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > ارتباط با من </a> </li>
+        <li> <a href="#" > درباره من </a> </li>
+        <li> <a href="#" > نقد ها </a>
+          <ul>
+            <li><a href="#"> ماتریکس </a></li>
+            <li><a href="#"> جایی دیگر </a></li>
+            <li><a href="#"> لاست </a> </li>
+          </ul>
+        </li>
+        <li> <a href="#" > خانه </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--start main MAMir-------------------------------------------------------------------------------------->
+<div class="main">
+<div id="f_container1">
+    <div id="f_card1">
+      <div class="front face1"> <img  src="matirx-1.jpg" /> </div>
+      <div class="back1 face1">
+        <div class="ax-bala"><img src="Stones.jpg"/></div>
+        <div class="matn"><p>matn</p></div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+  <div class="down-main">
+    <div class="child-down-main">
+      <div class="child0-down-main" id="child1-down-main" > <a class="child-matrix" href="#"><img src="Images/child-matrix.jpg" width="64" height="98"/>
+        <p class="pos-p">Matrix</p>
+        </a>
+        <p >سال ساخت:   1999</p>
+        <p >کارگردان:   واچوفسکی</p>
+        <p >تهیه کننده:   باری.ام اسبورن</p>
+      </div>
+      <div class="child0-down-main" id="child2-down-main" > <a class="child-lost" href="#"><img src="Images/child-lost.jpg" width="64" height="98" />
+        <p class="pos-p pos-p-lost">Lost</p>
+        </a>
+        <p>سال ساخت:   2004</p>
+        <p>کارگردان:   آبرامز</p>
+        <p>تهیه کننده:   دیمون لیندلوف</p>
+      </div>
+      <div class="child0-down-main" id="child3-down-main" > <a class="child-jaee-digar" href="#"><img src="Images/child-jaee-digar.jpg" width="64" height="98" />
+        <p class="pos-p pos-p-else">SomeWhere Else</p>
+        </a>
+        <p>سال ساخت:   1381</p>
+        <p>کارگردان:   مهدی کرم پور</p>
+        <p>تهیه کننده:   باری.ام اسبورن</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--End main MAMir-------------------------------------------------------------------------------------->
+<div class="footer">
+<div class="mum-footer">
+<div class="child1-footer" style="font-size:14px">
+  <p  style=" direction: rtl; text-align:right;">دانلود سریال</p>
+  <h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
+  <div class="footer-ch131"><a href="http://toolsp30.mihanblog.com/post/51"><img  src="Images/somewhere.jpg"  alt="bedlam"/></a></div>
+  <div class="footer-ch132"><a href="http://baran-movie2.persianblog.ir/post/22/"><img src="Images/lost1.jpg"  alt="bones"/></a></div>
+  <div class="footer-ch133"><a href="http://www.2.mihanfilm.com/film/acion/567-danlvd-film-matrix-revolutions.html"><img src="Images/matrix1.jpg"  alt="burn notice"/></a></div>
+  <h6>&nbsp;</h6>
+  <div class="footer-ch134"><a href="http://toolsp30.mihanblog.com/post/51" style="text-decoration:none;">
+    <p style="text-align:center; ">SOMEWHERE ELSE</p>
+    </a></div>
+  <div class="footer-ch135"><a href="http://baran-movie2.persianblog.ir/post/22/" style="text-decoration:none;">
+    <p style=" text-align:center;">LOST</p>
+    </a></div>
+  <div class="footer-ch136"><a href="http://www.2.mihanfilm.com/film/acion/567-danlvd-film-matrix-revolutions.html" style="text-decoration:none;">
+    <p style=" text-align:center;">MATRIX</p>
+    </a></div>
+</div>
+<div class="child2-footer" style="font-size:14px" >
+<p  style=" direction: rtl; text-align:right; ">راههای ارتباطی با ما</p>
+<h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
+<ul style="float:left; width:170;" >
+<li ><a style=" display:inline; line-height:25px; " href="http://www.facebook.com" class="fb"><span>ارتباط در فیس بوک</span></a></li>
+<li><a style=" display:inline;line-height:25px; " href="http://www.twitter.com" class="tw"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در توییتر</span></a></li>
+<li ><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="yt"><span>&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در یوتیوب</span></a></li>
+<ul style=" margin:-74px 200px; width:150px " >
+  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>sadegh.m11@gmail.com</span></a></li>
+  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>nowadays_M@yahoo.com</span></a></li>
+  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>amintayeranian@yahoo.com</span></a></li>
+</ul>
+</div>
+</div>
+<!--  be farmane modir hazf gardid --->
+<div class="copy">
+  <p style="color:#888">Copyright &copy; 2012 Freedom Group. All right reserved. <a href="#" style=" text-decoration:none; border-bottom:1px solid #888; font-weight:normal; color:#888; ">&nbsp;&nbsp;Terms of use</a></p>
+</div>
+</div>
+</div>
+</body>
+</html>
