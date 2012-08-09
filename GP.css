@@ -126,31 +126,34 @@ div.menu li li a {
 }
 /*---------------- Sub-Menu ---------------*/
 /*---------------- Menu ---------------*/
-/*---------------- Main MAMir---------------------------*/
+/*Main MAMir*/
 div.main {
 	width: auto;
 	height: 756px;
 }
 div.up-main {
-	height: 500px;
+	height: 550px;
 	width: 100%;
  background-color:;
 }
 div.content-left-up-main {
 	width: 652px;
-	height: 500px;
+	height: 550px;
 	float: left;
+}
+div.content-left-up-main img {
+	margin-top:
 }
 div.content-right-up-main {
 	width: 328px;
-	height: 500px;
+	height: 550px;
 	float: right;
 	background-image: url(Images/back-2.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
 .lost, .matrix, .jaee-digar {
-	width: 328px;
+	width: 322px;
 	height: 166.66px;
 	border: dotted 3px gray;
 	-moz-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
@@ -200,28 +203,33 @@ div.content-right-up-main {
 	text-decoration: underline;
 }
 div.down-main {
-	height: 255px;
+	height: 205px;
 	width: 980px;
 	background-image: url();
 	background-repeat: repeat-x;
 	padding: 1px 0px 0px 0px;
-	margin-top: 10px;
 }
 div.child-down-main {
-	height: 105px;
-	width: 800px;
-	margin: 67.5px 90px;
+	height: 90px;
+	width: 778px;
+	margin: 35px 90px;
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
-	padding-top: 11px;
+	padding: 16px 11px 13px 11px;
 	background-image: url(Images/back-3.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {
-	height: 100px;
-	width: 250px;
-	margin-top: 0px;
+	height: 87px;
+	width: 235px;
 	position: relative;
+}
+.child0-down-main p {
+	direction: rtl;
+	text-align: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 30px;
+	font-size: 14px;
 }
 .child0-down-main a, #child1-down-main {
 	float:left;
@@ -237,7 +245,7 @@ div.child0-down-main a p {
 	font-family: Metal Mania;
 	position: absolute;
 	top: 30px;
-	left: 100px;
+	left: 90px;
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
@@ -263,28 +271,24 @@ div.child0-down-main a {
 	-o-transition: all 0.5s;
 }
 #child2-down-main a p {
-	left: 120px;
+	left: 115px;
 }
 #child3-down-main a p {
 	top:25px;
 	left: 40px;
 	line-height:40px;
 }
-.child0-down-main p {
-	direction: rtl;
-	text-align: right;
-	font-family: Tahoma, Geneva, sans-serif;
-	line-height: 30px;
-	font-size: 14px;
-}
 #child2-down-main {
 	float: right;
 }
 #child3-down-main {
-	margin: 0px 275px;
-	margin-top: 0px;
+	margin: 0px 263px;
+	width:250px;
 }
-/*---------------- End Main MAMir------------------------------- */
+#child1-down-main, #child2-down-main {
+	margin-right:2px;
+}
+/*End Main MAMir*/
 /*---------------- Footer --------------- */
 div.footer {
 	width: auto;
