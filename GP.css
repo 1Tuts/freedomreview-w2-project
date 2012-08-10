@@ -83,24 +83,24 @@ div.header-right {
 	width:520px;
 	height:64px;
 	margin:0 auto;
-	background:url(images/bg.gif) repeat-x;
+	background:url(images/bg.jpg) repeat-x;
 	position:relative;
 	margin-top:20px;	
 }
 .rhm1-left{
-	background:url(images/left.gif) no-repeat;
+	background:url(images/left.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:left;
 }
 .rhm1-right{
-	background:url(images/right.gif) no-repeat;
+	background:url(images/right.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:right;
 }
 .menu{
-	background:url(images/bg.gif) repeat-x;
+	background:url(images/bg.jpg) repeat-x;
 	height:64px;
 	top:0;
 }
@@ -133,19 +133,19 @@ div.header-right {
 }
 .menu li.current a{
 	color:#fff;
-	background:url(images/hover-l.gif) no-repeat left 5px;
+	background:url(images/hover-l.jpg) no-repeat left 5px;
 }
 .menu li.current a span{
 	color:#fff;
-	background:url(images/hover-r.gif) no-repeat right 5px;
+	background:url(images/hover-r.jpg) no-repeat right 5px;
 }
 .menu li a:hover{
 	color:#fff;
-	background:url(images/hover-l.gif) no-repeat left 5px;
+	background:url(images/hover-l.jpg) no-repeat left 5px;
 }
 .menu li a:hover span{
 	color:#fff;
-	background:url(images/hover-r.gif) no-repeat right 5px;
+	background:url(images/hover-r.jpg) no-repeat right 5px;
 }
 /*Sub-Menu......
 div.menu li ul {
