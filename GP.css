@@ -137,7 +137,7 @@ div.header-right {
 	color:#fff;
 	background:url(images/rhm1_hover_r.gif) no-repeat right 5px;
 }
-/*---------------- Sub-Menu ---------------
+/*Sub-Menu......
 div.menu li ul {
 	list-style-type: none;
 	display: none;
@@ -162,8 +162,8 @@ div.menu li li:hover a {
 div.menu li li a span {
 	white-space: nowrap;
 }
----------------- Sub-Menu ---------------*/
-/*---------------- Menu ---------------*/
+Sub-Menu*/
+/*Menu*/
 /*Main MAMir*/
 div.main {
 	width: auto;
@@ -186,18 +186,18 @@ div.content-right-up-main {
 	width: 328px;
 	height: 550px;
 	float: right;
-	background-image: url(Images/back-2.jpg);
+	background-image: url(Images/Main/back-2.jpg);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position:left;
 }
 .lost, .matrix, .jaee-digar {
 	width: 322px;
 	height: 166.66px;
 	border: dotted 3px gray;
-	-moz-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
-	-o-border-image: url(Images/border.jpg) 5 1 5 5 stretch stretch;
-	-webkit-border-image: url(Images/border.jpg) 5 1 5 10 stretch stretch;
-	border-image: url(Images/border.jpg) 5 1 5 10 stretch stretch;
+	-moz-border-image: url(Images/Main/border.jpg) 5 1 5 5 stretch stretch;
+	-o-border-image: url(Images/Main/border.jpg) 5 1 5 5 stretch stretch;
+	-webkit-border-image: url(Images/Main/border.jpg) 5 1 5 10 stretch stretch;
+	border-image: url(Images/Main/border.jpg) 5 1 5 10 stretch stretch;
 	margin-bottom: 5px;
 }
 .lost p, .matrix p, .jaee-digar p {
@@ -231,7 +231,7 @@ div.content-right-up-main {
 	-o-transition: all 0.4s linear;
 }
 .jaee-digar-a {
-	width: 207px;
+	width: 240px;
 }
 .bishtar {
 	text-decoration: none;
@@ -254,7 +254,7 @@ div.child-down-main {
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
 	padding: 16px 11px 13px 11px;
-	background-image: url(Images/back-3.jpg);
+	background-image: url(Images/Main/back-3.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {
@@ -282,8 +282,8 @@ div.child0-down-main a p {
 	-o-transition: all 0.5s;
 	font-family: Metal Mania;
 	position: absolute;
-	top: 30px;
-	left: 90px;
+	top: 25px;
+	left: 85px;
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
@@ -312,7 +312,7 @@ div.child0-down-main a {
 	left: 115px;
 }
 #child3-down-main a p {
-	top:25px;
+	top:20px;
 	left: 40px;
 	line-height:40px;
 }
