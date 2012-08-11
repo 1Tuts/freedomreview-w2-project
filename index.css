@@ -386,6 +386,16 @@ div.child1-footer a {
 	float:left;
 	width:170;
 }
+.footer-ul2 {
+	margin:0px 200px;
+	width:150px;
+}
+.footer img:hover {
+	opacity:0.8;
+}
+.fb:hover, .tw:hover, .yt:hover, .felesh:hover {
+	opacity:0.8;
+}
 /*--------------div haye seryalha------------*/
 /*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
 div.footer-ch131 {
@@ -435,6 +445,7 @@ div.child2-footer {
 	width: 427px;
 	margin-left: 445px;
 	margin-top: 10px;
+	font-size:14px;
 }
 .fb {
 	background-image: url(Images/Footer/footer01.jpg);
@@ -443,6 +454,8 @@ div.child2-footer {
 	padding-left: 30px;
 	color: #999999;
 	text-decoration: none;
+	display:inline;
+	line-height:25px;
 }
 .tw {
 	background-image: url(Images/Footer/footer02.jpg);
@@ -451,6 +464,8 @@ div.child2-footer {
 	padding-left: 30px;
 	color: #999999;
 	text-decoration: none;
+	display:inline;
+	line-height:25px;
 }
 .yt {
 	background-image: url(Images/Footer/footer03.jpg);
@@ -459,6 +474,8 @@ div.child2-footer {
 	padding-left: 30px;
 	color: #999999;
 	text-decoration: none;
+	display:inline;
+	line-height:25px;
 }
 .felesh {
 	background-image: url(Images/Footer/footer04.jpg);

@@ -96,15 +96,15 @@
         <div class="footer-ch135"><a href="http://baran-movie2.persianblog.ir/post/22/" > LOST </a></div>
         <div class="footer-ch136"><a href="http://www.2.mihanfilm.com/film/acion/567-danlvd-film-matrix-revolutions.html" > MATRIX </a></div>
       </div>
-      <div class="child2-footer" >
+      <div class="child2-footer" style="font-size:14px" >
         <p  >راههای ارتباطی با ما</p>
         <h6 >&nbsp;</h6>
         <ul  class="footer-ul1"  >
-          <li ><a  href="https://www.facebook.com/TheMatrixMovie" class="fb"><span>ارتباط در فیس بوک</span></a></li>
-          <li><a  href="http://twitter.com/MS_CYBER_MATRIX" class="tw"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در توییتر</span></a></li>
-          <li ><a  href="http://www.youtube.com/watch?v=XX8Y5-BZLaM" class="yt"><span>&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در یوتیوب</span></a></li>
+          <li ><a style=" display:inline; line-height:25px; " href="https://www.facebook.com/TheMatrixMovie" class="fb"><span>ارتباط در فیس بوک</span></a></li>
+          <li><a style=" display:inline;line-height:25px; " href="http://twitter.com/MS_CYBER_MATRIX" class="tw"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در توییتر</span></a></li>
+          <li ><a style=" display:inline;line-height:25px; " href="http://www.youtube.com/watch?v=XX8Y5-BZLaM" class="yt"><span>&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در یوتیوب</span></a></li>
         </ul>
-        <ul  class="footer-ul2" >
+        <ul style=" margin:0px 200px; width:150px " >
           <li><a  href="mailto:sadegh.m11@gmail.com?subject=" class="felesh"><span>sadegh.m11@gmail.com</span></a></li>
           <li><a  href="mailto:nowadays_M@yahoo.com?subject=" class="felesh"><span>nowadays_M@yahoo.com</span></a></li>
           <li><a  href="mailto:amintayeranian@yahoo.com?subject=" class="felesh"><span>amintayeranian@yahoo.com</span></a></li>
