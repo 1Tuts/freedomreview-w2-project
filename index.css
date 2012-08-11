@@ -198,15 +198,11 @@ div.main {
 div.up-main {
 	height: 550px;
 	width: 100%;
- background-color:;
 }
 div.content-left-up-main {
 	width: 652px;
 	height: 545px;
 	float: left;
-}
-div.content-left-up-main img {
- margin-top:
 }
 div.content-right-up-main {
 	width: 328px;
@@ -236,7 +232,7 @@ div.content-right-up-main {
 .lost-a, .matrix-a, .jaee-digar-a {
 	text-decoration: none;
 	color: #000;
-	font-family: Metal Mania;
+	font-family: 'Metal Mania';
 	font-size: 31px;
 	display: block;
 	text-align: center;
@@ -306,14 +302,13 @@ div.child0-down-main a p {
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	font-family: Metal Mania;
+	font-family: 'Metal Mania';
 	position: absolute;
 	top: 25px;
 	left: 85px;
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
-	font-family: Metal Mania;
 	font-size:9px;
 }
 div.child0-down-main a {
@@ -322,7 +317,7 @@ div.child0-down-main a {
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
 	font-size: 50px;
-	font-family: Metal Mania;
+	font-family: 'Metal Mania';
 	color: #000;
 	transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
