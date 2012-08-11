@@ -9,7 +9,7 @@ body {
 	background-image:url(../Images/negativ2.jpg);
 }
 div {
-	
+	outline:solid 1px #000000;
 }
 div.container {
 	background-color:#FFF;
@@ -199,6 +199,15 @@ div.main {
 div.up-main {
 	height: 550px;
 	width: 100%;
+}
+.child1-up-main {
+	height:535px;
+	width:940px;
+	margin:0 auto;
+	padding:5px 5px;
+	direction:rtl;
+	text-align:right;
+	text-align:justify;
 }
 div.down-main {
 	height: 205px;
