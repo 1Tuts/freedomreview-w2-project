@@ -9,7 +9,7 @@ body {
 	background-image:url(../Images/negativ2.jpg);
 }
 div {
-	outline:solid 1px #000000;
+	
 }
 div.container {
 	background-color:#FFF;
@@ -31,6 +31,19 @@ div.up-header {
 h1, h2 {
 	visibility:hidden;
 	display:none;
+}
+@font-face {
+  font-family: 'Metal Mania';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
+}
+@font-face {
+	font-family: 'B Homa';
+	src: url(http://dlall.ir/web-font/homa.eot);
+	src: local('â˜º'), url(http://dlall.ir/web-font/homa.woff) format('woff'), url(http://dlall.ir/web-font/homa.ttf) format('truetype'), url(http://dlall.ir/web-font/homa.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 /*---------------- Header ---------------*/
 div.header {
@@ -83,24 +96,24 @@ div.header-right {
 	width:520px;
 	height:64px;
 	margin:0 auto;
-	background:url(../Images/Menu/bg.jpg) repeat-x;
+	background:url(../images/Menu/bg.jpg) repeat-x;
 	position:relative;
 	margin-top:20px;	
 }
 .rhm1-left{
-	background:url(../Images/Menu/left.jpg) no-repeat;
+	background:url(../images/Menu/left.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:left;
 }
 .rhm1-right{
-	background:url(../Images/Menu/right.jpg) no-repeat;
+	background:url(../images/Menu/right.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:right;
 }
 .menu{
-	background:url(../Images/Menu/bg.jpg) repeat-x;
+	background:url(../images/Menu/bg.jpg) repeat-x;
 	height:64px;
 	top:0;
 }
@@ -133,7 +146,7 @@ div.header-right {
 }
 .menu li.current a{
 	color:#fff;
-	background:url(../Images/Menu/hover-l.jpg) no-repeat left 5px;
+	background:url(../images/Menu/hover-l.jpg) no-repeat left 5px;
 }
 .menu li.current a span{
 	color:#fff;
@@ -141,11 +154,11 @@ div.header-right {
 }
 .menu li a:hover{
 	color:#fff;
-	background:url(../Images/Menu/hover-l.jpg) no-repeat left 5px;
+	background:url(../images/Menu/hover-l.jpg) no-repeat left 5px;
 }
 .menu li a:hover span{
 	color:#fff;
-	background:url(../Images/Menu/hover-r.jpg) no-repeat right 5px;
+	background:url(../images/Menu/hover-r.jpg) no-repeat right 5px;
 }
 /*Sub-Menu......
 div.menu li ul {
@@ -185,8 +198,7 @@ div.main {
 }
 div.up-main {
 	height: 550px;
-	width: 980px;;
-	background-color:;
+	width: 100%;
 }
 div.down-main {
 	height: 205px;
@@ -336,7 +348,7 @@ div.child2-footer {
 	margin-top: 10px;
 }
 .fb {
-	background-image: url(Images/01.jpg);
+	background-image: url(../Images/Footer/footer01.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -344,7 +356,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .tw {
-	background-image: url(Images/02.jpg);
+	background-image: url(../Images/Footer/footer02.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -352,7 +364,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .yt {
-	background-image: url(Images/03.jpg);
+	background-image: url(../Images/Footer/footer03.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
@@ -360,7 +372,7 @@ div.child2-footer {
 	text-decoration: none;
 }
 .felesh {
-	background-image: url(Images/04.jpg);
+	background-image: url(../Images/Footer/footer04.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
