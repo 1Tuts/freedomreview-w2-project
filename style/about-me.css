@@ -9,7 +9,6 @@ body {
 	background-image:url(../Images/negativ2.jpg);
 }
 div {
-	outline:solid 1px #000000;
 }
 div.container {
 	background-color:#FFF;
@@ -33,10 +32,10 @@ h1, h2 {
 	display:none;
 }
 @font-face {
-  font-family: 'Metal Mania';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
+	font-family: 'Metal Mania';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
 }
 @font-face {
 	font-family: 'B Homa';
@@ -65,14 +64,9 @@ div.header-left {
 	margin: 0 10px;
 	border: 1px outset buttonface;
 	border-radius: 20px;
-	background-color: #F93;
 	font-family: Tahoma, Geneva, sans-serif;
 	color:black;
 	font-size:14px;
-	-webkit-transition:all .5s;
-}
-.header-search:hover {
-	background-color:transparent;	
 }
 .header-sub {
 	float: left;
@@ -92,41 +86,41 @@ div.header-right {
 	float: right;
 }
 /*---------------- Menu ---------------*/
-.rhm1{
+.rhm1 {
 	width:520px;
 	height:64px;
 	margin:0 auto;
 	background:url(../images/Menu/bg.jpg) repeat-x;
 	position:relative;
-	margin-top:20px;	
+	margin-top:20px;
 }
-.rhm1-left{
+.rhm1-left {
 	background:url(../images/Menu/left.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:left;
 }
-.rhm1-right{
+.rhm1-right {
 	background:url(../images/Menu/right.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:right;
 }
-.menu{
+.menu {
 	background:url(../images/Menu/bg.jpg) repeat-x;
 	height:64px;
 	top:0;
 }
-.menu > ul{
+.menu > ul {
 	list-style:none;
 	margin:0 auto;
 	text-align:right;
 }
-.menu li{
+.menu li {
 	float:left;
 	list-style:none;
 }
-.menu li a{
+.menu li a {
 	float:left;
 	display:block;
 	color:#ffe8cc;
@@ -137,26 +131,26 @@ div.header-right {
 	height:64px;
 	line-height:40px;
 	text-align:right;
-	cursor:pointer;	
+	cursor:pointer;
 }
-.menu li a span{
+.menu li a span {
 	float:left;
 	display:block;
 	padding:0 32px 0 18px;
 }
-.menu li.current a{
+.menu li.current a {
 	color:#fff;
 	background:url(../images/Menu/hover-l.jpg) no-repeat left 5px;
 }
-.menu li.current a span{
+.menu li.current a span {
 	color:#fff;
 	background:url(../Images/Menu/hover-r.jpg) no-repeat right 5px;
 }
-.menu li a:hover{
+.menu li a:hover {
 	color:#fff;
 	background:url(../images/Menu/hover-l.jpg) no-repeat left 5px;
 }
-.menu li a:hover span{
+.menu li a:hover span {
 	color:#fff;
 	background:url(../images/Menu/hover-r.jpg) no-repeat right 5px;
 }
@@ -200,14 +194,37 @@ div.up-main {
 	height: 550px;
 	width: 100%;
 }
-.child1-up-main {
-	height:535px;
-	width:940px;
-	margin:0 auto;
-	padding:5px 5px;
-	direction:rtl;
-	text-align:right;
-	text-align:justify;
+div.topic{
+		width:980px;
+		min-height:40px;
+		float:right;
+		background-color:#CCC;	
+}
+div.topic p {
+		font-family:Tahoma, Geneva, sans-serif;
+		text-align:right;
+		color:#000;
+		font-size:24px;
+		font-weight:bold;	
+}
+div.contain {
+		width:auto;
+		height:510px;
+		background-color:transparent;
+		border:4px dashed  #666;
+		-webkit-border-radius:30px;
+		margin-top:10px;	
+}
+div.contain p {
+		direction:rtl;
+		font-family:Tahoma, Geneva, sans-serif;
+		text-align:right;
+		color:#000;
+		font-size:14px;
+		font-weight:bold;
+		margin-right: 15px;
+		margin-top:10px;
+		line-height:40px;
 }
 div.down-main {
 	height: 205px;
@@ -249,14 +266,13 @@ div.child0-down-main a p {
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	font-family: Metal Mania;
+	font-family: 'Metal Mania';
 	position: absolute;
 	top: 25px;
 	left: 85px;
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
-	font-family: Metal Mania;
 	font-size:9px;
 }
 div.child0-down-main a {
@@ -265,7 +281,7 @@ div.child0-down-main a {
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
 	font-size: 50px;
-	font-family: Metal Mania;
+	font-family: 'Metal Mania';
 	color: #000;
 	transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
@@ -320,17 +336,19 @@ div.child1-footer {
 /*--------------div haye seryalha------------*/
 /*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
 div.footer-ch131 {
-	width: 141px;
+	width: 137px;
 	height: 43px;
 	float: left;
+	border-right:groove 4px #fff;
 }
 div.footer-ch132 {
-	width: 141px;
+	width: 137px;
 	height: 43px;
 	float: left;
+	border-right:groove 4px #fff;
 }
 div.footer-ch133 {
-	width: 141px;
+	width: 139px;
 	height: 43px;
 	margin-left: 282px;
 }
@@ -338,16 +356,22 @@ div.footer-ch134 {
 	width: 141px;
 	height: 43px;
 	float: left;
+	color:#000000;
 }
 div.footer-ch135 {
 	width: 141px;
 	height: 43px;
 	float: left;
+	color:#000000;
 }
 div.footer-ch136 {
 	width: 141px;
 	height: 43px;
 	margin-left: 282px;
+	color:#000000;
+}
+.footer-ch134:hover a, .footer-ch136:hover a, .footer-ch135:hover a {
+	color: #678;
 }
 /*--------------payane div haye seryalha------------*/
 div.child2-footer {
@@ -381,26 +405,25 @@ div.child2-footer {
 	text-decoration: none;
 }
 .felesh {
-	background-image: url(../Images/Footer/footer04.jpg);
+	background-image:url(../Images/Footer/footer04.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 30px;
 	color: #999999;
 	text-decoration: none;
 }
-/*.amin {
-	width:83px;
-	height:52px;
-	margin:-30px 80px;
-	background-image:url(amin.jpg);
-}*/
 .copy {
 	width: 570px;
 	height: 35px;
-	margin: -35px 170px;
+	margin: 35px 70px;
+	color:#888;
+	border-bottom:1px groove #888;
 }
-a:hover {
-	outline: none;
+.copy a {
+	color:#888;
+}
+.copy:hover a {
+	color:#000000;
 	border-bottom: none;
-	text-shadow: #000;
+	text-shadow: #678;
 }
