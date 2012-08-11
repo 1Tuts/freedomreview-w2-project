@@ -397,21 +397,18 @@ div.footer-ch134 {
 	width: 141px;
 	height: 43px;
 	float: left;
-	color:#000000;
 }
 div.footer-ch135 {
 	width: 141px;
 	height: 43px;
 	float: left;
-	color:#000000;
 }
 div.footer-ch136 {
 	width: 141px;
 	height: 43px;
 	margin-left: 282px;
-	color:#000000;
 }
-.footer-ch134:hover a, .footer-ch136:hover a, .footer-ch135:hover a {
+.footer-ch134:hover, .footer-ch136:hover, .footer-ch135:hover {
 	color: #678;
 }
 /*--------------payane div haye seryalha------------*/
@@ -453,18 +450,19 @@ div.child2-footer {
 	color: #999999;
 	text-decoration: none;
 }
+/*.amin {
+	width:83px;
+	height:52px;
+	margin:-30px 80px;
+	background-image:url(amin.jpg);
+}*/
 .copy {
 	width: 570px;
 	height: 35px;
 	margin: 35px 70px;
-	color:#888;
-	border-bottom:1px groove #888;
 }
-.copy a {
-	color:#888;
-}
-.copy:hover a {
-	color:#000000;
+a:hover {
+	outline: none;
 	border-bottom: none;
-	text-shadow: #678;
+	text-shadow: #000;
 }
