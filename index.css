@@ -355,7 +355,7 @@ div.footer {
 	padding: 1px 0px 0px 0px;
 }
 div.mum-footer {
-	height: 156px;
+	height: 130px;
 	width: 883px;
 	margin: 39.5px 46px;
 	border: 1px solid #B7B5B2;
@@ -364,7 +364,7 @@ div.mum-footer {
 	padding-top: 1px;
 }
 div.child1-footer {
-	height: 135px;
+	height: 115px;
 	width: 425px;
 	margin: 10px 10px;
 	float: left;
@@ -396,28 +396,31 @@ div.footer-ch133 {
 }
 div.footer-ch134 {
 	width: 141px;
-	height: 43px;
+	height: 23px;
 	float: left;
 	color:rgb(0,0,0);
+	text-align:center;
 }
 div.footer-ch135 {
 	width: 141px;
-	height: 43px;
+	height: 23px;
 	float: left;
 	color:rgb(0,0,0);
+	text-align:center;
 }
 div.footer-ch136 {
 	width: 141px;
-	height: 43px;
+	height: 23px;
 	margin-left: 282px;
 	color:rgb(0,0,0);
+	text-align:center;
 }
 .footer-ch134:hover a, .footer-ch136:hover a, .footer-ch135:hover a {
 	color: #678;
 }
 /*--------------payane div haye seryalha------------*/
 div.child2-footer {
-	height: 135px;
+	height: 115px;
 	width: 427px;
 	margin-left: 445px;
 	margin-top: 10px;
@@ -459,5 +462,4 @@ div.child2-footer {
 	height: 35px;
 	margin: 35px 70px;
 	color:#888;
-	border-bottom:1px groove #888;
 }
