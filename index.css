@@ -6,17 +6,17 @@
 	padding: 0;
 }
 body {
-	background-image:url(Images/negativ2.jpg);
+	background-image: url(Images/negativ2.jpg);
 }
 div {
 }
 div.container {
-	background-color:#FFF;
+	background-color: #FFF;
 	width: 980px;
 	height: auto;
 	margin: 0 auto;
-	border-left:solid 3px #FFFFFF;
-	border-right:solid 3px #FFFFFF;
+	border-left: solid 3px #FFFFFF;
+	border-right: solid 3px #FFFFFF;
 }
 div.clear {
 	width: 0;
@@ -28,8 +28,8 @@ div.up-header {
 	height: 133px;
 }
 h1, h2 {
-	visibility:hidden;
-	display:none;
+	visibility: hidden;
+	display: none;
 }
 @font-face {
 	font-family: 'Metal Mania';
@@ -66,12 +66,12 @@ div.header-left {
 	border-radius: 20px;
 	background-color: #F93;
 	font-family: Tahoma, Geneva, sans-serif;
-	color:black;
-	font-size:14px;
-	-webkit-transition:all .5s;
+	color: black;
+	font-size: 14px;
+	-webkit-transition: all .5s;
 }
 .header-search:hover {
-	background-color:transparent;
+	background-color: transparent;
 }
 .header-sub {
 	float: left;
@@ -92,72 +92,72 @@ div.header-right {
 }
 /*---------------- Menu ---------------*/
 .rhm1 {
-	width:520px;
-	height:64px;
-	margin:0 auto;
-	background:url(images/Menu/bg.jpg) repeat-x;
-	position:relative;
-	margin-top:20px;
+	width: 520px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(images/Menu/bg.jpg) repeat-x;
+	position: relative;
+	margin-top: 20px;
 }
 .rhm1-left {
-	background:url(images/Menu/left.jpg) no-repeat;
-	width:15px;
-	height:64px;
-	float:left;
+	background: url(images/Menu/left.jpg) no-repeat;
+	width: 15px;
+	height: 64px;
+	float: left;
 }
 .rhm1-right {
-	background:url(images/Menu/right.jpg) no-repeat;
-	width:15px;
-	height:64px;
-	float:right;
+	background: url(images/Menu/right.jpg) no-repeat;
+	width: 15px;
+	height: 64px;
+	float: right;
 }
 .menu {
-	background:url(images/Menu/bg.jpg) repeat-x;
-	height:64px;
-	top:0;
+	background: url(images/Menu/bg.jpg) repeat-x;
+	height: 64px;
+	top: 0;
 }
 .menu > ul {
-	list-style:none;
-	margin:0 auto;
-	text-align:right;
+	list-style: none;
+	margin: 0 auto;
+	text-align: right;
 }
 .menu li {
-	float:left;
-	list-style:none;
+	float: left;
+	list-style: none;
 }
 .menu li a {
-	float:left;
-	display:block;
-	color:#ffe8cc;
-	text-decoration:none;
-	font:15px 'Lucida Sans', sans-serif;
-	font-weight:bold;
-	padding:0 0 0 18px;
-	height:64px;
-	line-height:40px;
-	text-align:right;
-	cursor:pointer;
+	float: left;
+	display: block;
+	color: #ffe8cc;
+	text-decoration: none;
+	font: 15px 'Lucida Sans', sans-serif;
+	font-weight: bold;
+	padding: 0 0 0 18px;
+	height: 64px;
+	line-height: 40px;
+	text-align: right;
+	cursor: pointer;
 }
 .menu li a span {
-	float:left;
-	display:block;
-	padding:0 32px 0 18px;
+	float: left;
+	display: block;
+	padding: 0 32px 0 18px;
 }
 .menu li.current a {
-	color:#fff;
-	background:url(images/Menu/hover-l.jpg) no-repeat left 5px;
+	color: #fff;
+	background: url(images/Menu/hover-l.jpg) no-repeat left 5px;
 }
 .menu li.current a span {
-	color:#fff;
-	background:url(Images/Menu/hover-r.jpg) no-repeat right 5px;
+	color: #fff;
+	background: url(Images/Menu/hover-r.jpg) no-repeat right 5px;
 }
 .menu li a:hover {
-	color:#fff;
-	background:url(images/Menu/hover-l.jpg) no-repeat left 5px;
+	color: #fff;
+	background: url(images/Menu/hover-l.jpg) no-repeat left 5px;
 }
 .menu li a:hover span {
-	color:#fff;
-	background:url(images/Menu/hover-r.jpg) no-repeat right 5px;
+	color: #fff;
+	background: url(images/Menu/hover-r.jpg) no-repeat right 5px;
 }
 /*Sub-Menu......
 div.menu li ul {
@@ -210,7 +210,7 @@ div.content-right-up-main {
 	float: right;
 	background-image: url(Images/Main/back-2.jpg);
 	background-repeat: no-repeat;
-	background-position:left;
+	background-position: left;
 }
 .lost, .matrix, .jaee-digar {
 	width: 322px;
@@ -292,7 +292,7 @@ div.child0-down-main {
 	font-size: 14px;
 }
 .child0-down-main a, #child1-down-main {
-	float:left;
+	float: left;
 }
 div.child0-down-main img:hover {
 	opacity: 0.7;
@@ -309,10 +309,10 @@ div.child0-down-main a p {
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
-	font-size:9px;
+	font-size: 9px;
 }
 div.child0-down-main a {
-	text-decoration:none;
+	text-decoration: none;
 }
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
@@ -333,163 +333,159 @@ div.child0-down-main a {
 	left: 115px;
 }
 #child3-down-main a p {
-	top:20px;
+	top: 20px;
 	left: 40px;
-	line-height:40px;
+	line-height: 40px;
 }
 #child2-down-main {
 	float: right;
 }
 #child3-down-main {
 	margin: 0px 263px;
-	width:250px;
+	width: 250px;
 }
 #child1-down-main, #child2-down-main {
-	margin-right:2px;
+	margin-right: 2px;
 }
 /*End Main MAMir*/
 /*---------------- Footer --------------- */
 div.footer {
-	width: auto;
-	min-height: 261px;
-	padding: 1px 0px 0px 0px;
+	width : auto;
+	min-height : 261px;
+	padding : 1px 0 0 0;
 }
 div.mum-footer {
-	height: 130px;
-	width: 883px;
-	margin: 39.5px 46px;
-	border: 1px solid #B7B5B2;
-	border-top: 1px solid #999;
-	border-radius: 10px;
-	padding-top: 1px;
+	height : 130px;
+	width : 883px;
+	margin : 39.5px 46px;
+	border : #b7b5b2 solid 1px;
+	border-top : 1px solid #999;
+	border-radius : 10px;
+	padding-top : 1px;
 }
 div.child1-footer {
-	height: 115px;
-	width: 425px;
-	margin: 10px 10px;
-	float: left;
-	font-size:14px;
+	height : 115px;
+	width : 425px;
+	margin : 10px 10px;
+	float : left;
+	font-size : 14px;
 }
 div.child1-footer p, div.child2-footer p {
-	direction: rtl;
-	text-align:right;
-	font-family: 'B Homa';
+	direction : rtl;
+	text-align : right;
+	font-family : 'B Homa';
 }
 div.child1-footer h6, div.child2-footer h6 {
-	background-image:url(Images/Footer/footer06.jpg);
-	background-repeat:repeat-x;
+	background-image : url(Images/Footer/footer06.jpg);
+	background-repeat : repeat-x;
 }
 div.child1-footer a {
-	text-decoration:none;
+	text-decoration : none;
 }
 .footer-ul1 {
-	float:left;
-	width:170;
+	float : left;
 }
 .footer-ul2 {
-	margin:0px 200px;
-	width:150px;
+	margin : 0 200px;
+	width : 150px;
 }
 .footer img:hover {
-	opacity:0.8;
+	opacity : 0.800000011920928955078125;
 }
 .fb:hover, .tw:hover, .yt:hover, .felesh:hover {
-	opacity:0.8;
+	opacity : 0.800000011920928955078125;
 }
-/*--------------div haye seryalha------------*/
-/*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
 div.footer-ch131 {
-	width: 137px;
-	height: 43px;
-	float: left;
-	border-right:groove 4px #fff;
+	width : 137px;
+	height : 43px;
+	float : left;
+	border-right : 4px groove #fff;
 }
 div.footer-ch132 {
-	width: 137px;
-	height: 43px;
-	float: left;
-	border-right:groove 4px #fff;
+	width : 137px;
+	height : 43px;
+	float : left;
+	border-right : 4px groove #fff;
 }
 div.footer-ch133 {
-	width: 139px;
-	height: 43px;
-	margin-left: 282px;
+	width : 139px;
+	height : 43px;
+	margin-left : 282px;
 }
 div.footer-ch134 {
-	width: 141px;
-	height: 23px;
-	float: left;
-	color:rgb(0,0,0);
-	text-align:center;
+	width : 141px;
+	height : 23px;
+	float : left;
+	color : rgb(0, 0, 0);
+	text-align : center;
 }
 div.footer-ch135 {
-	width: 141px;
-	height: 23px;
-	float: left;
-	color:rgb(0,0,0);
-	text-align:center;
+	width : 141px;
+	height : 23px;
+	float : left;
+	color : rgb(0, 0, 0);
+	text-align : center;
 }
 div.footer-ch136 {
-	width: 141px;
-	height: 23px;
-	margin-left: 282px;
-	color:rgb(0,0,0);
-	text-align:center;
+	width : 141px;
+	height : 23px;
+	margin-left : 282px;
+	color : rgb(0, 0, 0);
+	text-align : center;
 }
 .footer-ch134:hover a, .footer-ch136:hover a, .footer-ch135:hover a {
-	color: #678;
+	color : #678;
 }
-/*--------------payane div haye seryalha------------*/
 div.child2-footer {
-	height: 115px;
-	width: 427px;
-	margin-left: 445px;
-	margin-top: 10px;
-	font-size:14px;
+	height : 115px;
+	width : 427px;
+	margin-left : 445px;
+	margin-top : 10px;
+	font-size : 14px;
 }
 .fb {
-	background-image: url(Images/Footer/footer01.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-	display:inline;
-	line-height:25px;
+	background-image : url(Images/Footer/footer01.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .tw {
-	background-image: url(Images/Footer/footer02.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-	display:inline;
-	line-height:25px;
+	background-image : url(Images/Footer/footer02.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .yt {
-	background-image: url(Images/Footer/footer03.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-	display:inline;
-	line-height:25px;
+	background-image : url(Images/Footer/footer03.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .felesh {
-	background-image: url(Images/Footer/footer04.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-	display:inline;
-	line-height:25px;
+	background-image : url(Images/Footer/footer04.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .copy {
-	width: 570px;
-	height: 35px;
-	margin: 35px 70px;
-	color:#888;
+	width : 570px;
+	height : 35px;
+	margin : 35px 70px;
+	color : #888;
 }
