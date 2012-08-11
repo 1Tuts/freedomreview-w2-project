@@ -370,11 +370,22 @@ div.child1-footer {
 	float: left;
 	font-size:14px;
 }
-div.child1-footer p, div.child2-footer p{ direction: rtl; text-align:right;font-family: 'B Homa';}
-div.child1-footer h6, div.child2-footer h6{ background-image:url(Images/Footer/footer06.jpg); background-repeat:repeat-x;}
-div.child1-footer a{text-decoration:none;}
-.footer-ul1 {float:left; width:170;}
-
+div.child1-footer p, div.child2-footer p {
+	direction: rtl;
+	text-align:right;
+	font-family: 'B Homa';
+}
+div.child1-footer h6, div.child2-footer h6 {
+	background-image:url(Images/Footer/footer06.jpg);
+	background-repeat:repeat-x;
+}
+div.child1-footer a {
+	text-decoration:none;
+}
+.footer-ul1 {
+	float:left;
+	width:170;
+}
 /*--------------div haye seryalha------------*/
 /*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
 div.footer-ch131 {
@@ -456,6 +467,8 @@ div.child2-footer {
 	padding-left: 30px;
 	color: #999999;
 	text-decoration: none;
+	display:inline;
+	line-height:25px;
 }
 .copy {
 	width: 570px;
