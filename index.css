@@ -62,7 +62,7 @@ div.header-left {
 	height: 25px;
 	width: 200px;
 	margin: 0 10px;
-	border: 1px outset buttonface;
+	border: 1px solid black;
 	border-radius: 20px;
 	background-color:transparent;
 	font-family: Tahoma, Geneva, sans-serif;
@@ -78,7 +78,6 @@ div.header-left {
 	width: 55px;
 	background-color: transparent;
 	border-radius: 20px;
-	font-family: Tahoma, Geneva, sans-serif;
 }
 /*---------------- Search Tab ---------------*/
 div.header-right {
@@ -126,10 +125,11 @@ div.header-right {
 	display:block;
 	color:#ffe8cc;
 	text-decoration:none;
-	font:15px 'Lucida Sans', sans-serif;
+	font:15px ;
+	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	padding:0 0 0 18px;
-	height:64px;
+	height:34px;
 	line-height:40px;
 	text-align:right;
 	cursor:pointer;	
