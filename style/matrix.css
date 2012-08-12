@@ -14,7 +14,7 @@ div {
 div.container {
 	background-color: #FFF;
 	width: 980px;
-	height: 1240px;
+	height: 1230px;
 	margin: 0 auto;
 	border-left: solid 3px #FFFFFF;
 	border-right: solid 3px #FFFFFF;
@@ -195,7 +195,6 @@ div.main {
 div.up-main {
 	height: 570px;
 	width: 100%;
-	margin-top:10px;
 }
 .child1-up-main {
 	height:510px;
@@ -233,7 +232,7 @@ div.down-main {
 div.child-down-main {
 	height: 90px;
 	width: 778px;
-	margin: 35px 90px;
+	margin: 60px 90px 35px 90px;
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
 	padding: 16px 11px 13px 11px;
