@@ -1,378 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>نقد آزادی</title>
-<link rel="stylesheet" type="text/css" href="Reset.css" />
-<style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-}
-div {
-	outline: 1px dotted #000;
-}
-div.container {
-	background-image: url(htc.jpg);
-	width: 980px;
-	height: 1097px;
-	background-position: top center;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-}
-div.clear {
-	width: 0;
-	height: 0;
-	clear: both;
-}
-/*---------------- Header ---------------*/
-div.header {
-	width: auto;
-	min-height: 79px;
-}
-div.header-left {
-	width: 380px;
-	min-height: 79px;
-	float: left;
-	position: relative;
-}
-/*---------------- Search Tab ---------------*/
-.header-search {
-	position: absolute;
-	top: 25px;
-	height: 25px;
-	width: 200px;
-	margin: 0 10px;
-	border: 1px outset buttonface;
-	border-radius: 20px;
-	background-color: transparent;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-.header-sub {
-	float: left;
-	position: absolute;
-	top: 25px;
-	left: 220px;
-	height: 28px;
-	width: 55px;
-	background-color: transparent;
-	border-radius: 20px;
-	font-family: Tahoma, Geneva, sans-serif;
-}
-/*---------------- Search Tab ---------------*/
-div.header-right {
-	width: auto;
-	min-height: 79px;
-	float: right;
-}
-/*---------------- Menu ---------------*/
-div.menu {
-	height: 79px;
-	position: relative;
-	top: 0;
-}
-div.menu > ul {
-	list-style: none;
-	width: 600px;
-	margin: 0 auto;
-}
-div.menu ul li {
-	float: left;
-	border-right: 10px solid #FFF;
-	position: relative;
-}
-div.menu ul li a {
-	display: block;
-	padding: 30px 42px;
-	text-decoration: none;
-	font-size: 13px;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: bold;
-	text-transform: capitalize;
-	color: #111;
-}
-div.menu > ul > li:hover a {
-	color: #6F3;
-}
-div.menu > ul > li:first-child {
-	border-left: 2px solid #FFF;
-}
-/*---------------- Sub-Menu ---------------*/
-div.menu li ul {
-	list-style-type: none;
-	display: none;
-	position: absolute;
-	top: 42px;
-	left: 0;
-	border-top: 3px solid transparent;
-}
-div.menu li:hover ul {
-	display: block;
-	min-width: 100%;
-}
-div.menu li li {
-	float: none;
-	background-color: #B21;
-	border-radius: 0 70px 0 50px;
-}
-div.menu li li:hover a {
-	color: #00F;
-}
-div.menu li li a {
-	white-space: nowrap;
-}
-/*---------------- Sub-Menu ---------------*/
-/*---------------- Menu ---------------*/
-/*---------------- Main -----------------*/
-div.main {
-	width: auto;
-	min-height: 756px;
-}
-div.up-main {
-	height: 500px;
-	width: 100%;
-	background-color: #999;
-}
-div.content-left-up-main {
-	width: 652px;
-	height: inherit;
-	float: left;
-	background-image:url(Images/Lost.jpg);
-	background-repeat:no-repeat;
-	background-size: 652px 500px;
-}
-div.content-right-up-main {
-	width: 328px;
-	height: inherit;
-	float: right;
-}
-.p-up-main {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 16px;
-	line-height: 37px;
-	text-align: right;
-	margin-top: 30px;
-}
-.p-up-main-a {
-	text-decoration: none;
-	color: #FFF;
-}
-.p-up-main-a:hover {
-	font-size: 36px;
-	color: #000;
-}
-div.down-main {
-	height: 255px;
-	width: 980px;
-	background-image: url(Images/background-down-main.jpg);
-	background-repeat: repeat-x;
-	padding: 1px 0px 0px 0px;
-}
-div.child-down-main {
-	height: 119px;
-	width: 800px;
-	margin: 67.5px 90px;
-	border: 1px solid #B7B5B2;
-	border-top: 1px solid #999;
-	border-radius: 10px;
-	padding-top: 1px;
-}
-div.child0-down-main {
-	height: 100px;
-	width: 250px;
-	margin-top: 9.0px;
-}
-#child1-down-main {
-	float: left;
-}
-#child2-down-main {
-	float: right;
-}
-#child3-down-main {
-	margin: 0px 275px;
-	margin-top: 9.0px;
-}
-/*---------------- Footer --------------- */
-div.footer {
-	width: auto;
-	min-height: 261px;
-	padding: 1px 0px 0px 0px;
-}
-div.mum-footer {
-	height: 156px;
-	width: 883px;
-	margin: 39.5px 46px;
-	border: 1px solid #B7B5B2;
-	border-top: 1px solid #999;
-	border-radius: 10px;
-	padding-top: 1px;
-}
-div.child1-footer {
-	height: 135px;
-	width: 425px;
-	margin: 10px 10px;
-	float: left;
-}
-/*--------------div haye seryalha------------*/
-/*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
-div.footer-ch131 { width:141px; height:45px; float:left;
-	
-}
-div.footer-ch132 { width:141px; height:45px; float:left;
-	
-}
-div.footer-ch133 { width:141px; height:45px; float:left;
-	
-}
-div.footer-ch134 { width:141px; height:43px; float:left;
-	
-}div.footer-ch135 { width:141px; height:43px; float:left;
-	
-}div.footer-ch136 { width:141px; height:43px; float:left;
-	
-}
-
-
-
-/*--------------payane div haye seryalha------------*/
-div.child2-footer {
-	height: 135px;
-	width: 427px;
-	margin-left: 445px;
-	margin-top: 10px;
-}
-.fb {
-	background-image: url(01.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-}
-.tw {
-	background-image: url(02.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-}
-.yt {
-	background-image: url(03.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-}
-.felesh {
-	background-image: url(04.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
-}
-.amin {
-	width:83px;
-	height:52px;
-	margin:-30px 80px;
-	background-image:url(amin.jpg);
-}
-.copy {
-	width:570px;
-	height:35px;
-	margin:-35px 170px;
-}
-a:hover {
-	outline: none;
-	border-bottom:none;
-	text-shadow:#000;
-}
-</style>
+<meta name="keywords" content="نقد فیلم لاست,نقد فیلم ماتریکس,نقد فیلم جایی دیگر" />
+<link rel="shortcut icon" href="Images/favicon.ico">
+<title>..::نقد آزادی::..</title>
+<link rel="stylesheet" type="text/css" href="../style/Reset.css" />
+<link rel="stylesheet" type="text/css" href="../style/matrix.css" />
 </head>
 
 <body>
 <div class="container">
+<h1>نقد آزادی</h1>
+<h2>نقد و بررسی فیلم های لاست و ماتریکس و جایی دیگر</h2>
+<div class="up-header"><img src="../Images/header.jpg" width="980" height="133" alt="header" /> </div>
 <div class="header">
   <div class="header-left">
     <form>
       <input class="header-search"  type="text" value="" name="search"  placeholder="جستجو" />
-      <input class="header-sub" type="image" src="Images/423.jpg" name="جستجو"  onclick="" />
+      <input class="header-sub" type="image" src="../Images/423.jpg" name="جستجو"  onclick="" alt="search" />
     </form>
   </div>
   <div class="header-right">
-    <div class="menu">
-      <ul>
-        <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > ارتباط با من </a> </li>
-        <li> <a href="#" > درباره من </a> </li>
-        <li> <a href="#" > نقد ها </a>
-          <ul>
-            <li><a href="#"> ماتریکس </a></li>
-            <li><a href="#"> جایی دیگر </a></li>
-            <li><a href="#"> لاست </a> </li>
-          </ul>
-        </li>
-        <li> <a href="#" > خانه </a> </li>
-      </ul>
-    </div>
+    <div class="rhm1">
+<div class="rhm1-right"></div>
+<div class="rhm1-left"></div>
+<div class="menu">
+<ul>
+	<li><a href="#"><span>ارتباط با من</span></a></li>
+	<li><a href="#"><span>درباره من</span></a></li>	
+	<li><a href="#"><span>نقد ها</span></a>
+         
+    </li>		
+	<li class="current"><a href="#"><span>خانه</span></a></li>	
+</ul>
+</div>
+</div>
   </div>
 </div>
+<!--start main MAMir-->
 <div class="main">
   <div class="up-main">
-    <div class="content-left-up-main"></div>
-    <div class="content-right-up-main">
-      <p class="p-up-main"> گمشدگان یا لاست (Lost) مجموعه‌ای تلویزیونی است که پخش آن از ۲۲ سپتامبر ۲۰۰۴ از شبکه ABC آمریکا و تعداد زیادی از شبکه‌های خارجی آغاز شد.
-
-این مجموعه تلویزیونی داستان 47 نفر از بازماندگان یک هواپیما را نشان می‌دهد که از سیدنی استرالیا به مقصد لس آنجلس در حال حرکت بوده که بر فراز جزیره‌ای ناشناس در اقیانوس آرام سقوط می‌کند.
-
-افراد مختلف این مجموعه هر کدام به عنوان نماینده یک تمدن به شمار می‌روند که مخاطب بعد از دیدن این مجموعه تحت تأثیر القائات فراوانی درباره تمدن‌های مختلف قرار می‌گیرد </p>
-    </div>
+  <div class="child1-up-main">
+  <p class="one1-p">لاست</p>
+  <p class="tow2-p">
+  
+<span class="Bold">خلاصه فیلم:</span>
+<br />
+مسافرین هواپیمایی در جزیره ای سقوط کرده اند و داستان پیرامون ادامه زندگی آن ها در جزیره و بعد از آن است.
+<br />
+<span class="Bold">نقد فیلم:</span>
+<br />
+اینکه بگوییم Lost (که به تازگی پخش آن به اتمام رسید) از موفق ترین سریال های دوران ماست سخنی بیهوده نیست. گرچه در خود آمریکا، سریال در برابر سریال های پخش شده همزمان خود به تدریج رنگ باخت اما در کشور های دیگر (و به خصوص ایران)، "گمشده" از پر بیننده ترین سریال ها بود و البته در اینترنت هم طوفان های شدیدی در این باره به راه افتاد که نمونه آن سایت Lostopedia است. برخی این را به آغاز دوران سریال بینی ما ایرانی ها نسبت می دهند که نادرست هم نیست اما به هر حال باید دلایل محبوبیت آن را بررسی کنیم و این جز با نگاه عمیق تر به خود سریال ممکن نیست.
+<br />
+"گمشده" از سریال های بسیار پر هزینه آمریکایی ست که از سپتامبر 2004 تا می 2010 در 6 فصل پخش شده است و ماجرای تعدادی از افرادی ست که در پروازی از سیدنی به لس آنجلس دچار سانحه هوایی شده و سقوط کرده اند. محل سقوط آن ها جزیره ای ست که ظاهراً راه ارتباطی با دنیای خارج از آن ندارد و بنابراین ساکنان آن باید به ماندن در جزیره عادت کنند.
+<br />
+قسمت های ابتدایی فصل اول به نمایش اوضاع پس از سقوط این مسافران و همچنین فلش بک هایی به زندگی هر یک از آن ها اختصاص دارد. در این فصل با مشکلات حضور در جزیره آشنا می شویم و در هر قسمت به گذشته یکی از آنان بازمی گردیم تا با او بیشتر آشنا شویم؛ یعنی دو خط در فصل اول پیگیری می شود. یکی از نکات امتیاز سریال ها نسبت به فیلم ها همین است: در روندی طولانی تر امکان آشنایی بیشتر بیننده با شخصیت ها فراهم می شود و در نتیجه پیگیری حوادث پیش آمده برای آن ها محتمل تر است؛ شخصیت پردازی قوی تر یعنی ایجاد حس همذات پنداری بهتر و اثر بیشتر فیلم یا سریال.
+<br />
+محل فیلمبرداری سریال جزیره ای در حوالی هاوایی بوده است. اما با توجه به محل سقوط هواپیما افراد زیادی پس از فصل 4 سعی کردند با توجه به مسیر پرواز هواپیما و تخمین زمان پرواز و سقوط محل تقریبی یا دقیق جزیره را کشف کنند! در این که لاست سریالی حساب شده و دقیق است شکی نیست. با این حال این حس روبرو شدن ما انسان ها با معما و عجایب است که چنین مسائلی را به پیش می برد و شاید خود تهیه کننده گان سریال هم حدس چنین استقبال و ایجاد گروه های "کشف معماهای لاست" را نمی دادند!
+  </p>
   </div>
+  <div class="child2-up-main">
+  </div>
+    </div>
   <div class="down-main">
     <div class="child-down-main">
-      <div class="child0-down-main" id="child1-down-main" ><a href="My Idea.html"> <img src="Images/Sub-Matrix.jpg" /> </a></div>
-      <div class="child0-down-main" id="child2-down-main" ><a href="My Idea ( Jayi digar).html"> <img src="Images/Sub-Jayi digar.jpg" /> </a></div>
-      <div class="child0-down-main" id="child3-down-main" ><a href="My Idea (Lost).html"> <img src="Images/Sub-Lost.jpg" /> </a></div>
+      <div class="child0-down-main" id="child1-down-main" > <a href="#"><img src="../Images/Main/child-matrix.jpg" width="75" height="86" alt="matrix"/>
+        <p>Matrix</p>
+        </a>
+        <p >سال ساخت:   1999</p>
+        <p >کارگردان:   واچوفسکی</p>
+        <p >تهیه کننده:   باری.ام</p>
+      </div>
+      <div class="child0-down-main" id="child2-down-main" > <a class="child-lost" href="#"><img src="../Images/Main/child-lost.jpg" width="75" height="86" alt="lost" />
+        <p class="pos-p-lost">Lost</p>
+        </a>
+        <p>سال ساخت:   2004</p>
+        <p>کارگردان:   آبرامز</p>
+        <p>تهیه کننده:   دیمون</p>
+      </div>
+      <div class="child0-down-main" id="child3-down-main" > <a class="child-jaee-digar" href="#"><img src="../Images/Main/child-jaee-digar.jpg" width="75" height="86" alt="jaee-digar" />
+        <p class="pos-p-else">SomeWhere Else</p>
+        </a>
+        <p>سال ساخت:   1381</p>
+        <p>کارگردان:   مهدی کرم پور</p>
+        <p>تهیه کننده:   مهدی کرم پور</p>
+      </div>
       <div class="clear"></div>
     </div>
   </div>
 </div>
+<!--End main MAMir-->
 <div class="footer">
-<div class="mum-footer">
-<div class="child1-footer">
-
-<p  style=" direction: rtl; text-align:right;">دانلود سریال</p>
-<h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
-<div class="footer-ch131"></div>
-<div class="footer-ch132"></div>
-<div class="footer-ch133"></div>
-<h6>&nbsp;</h6>
-<div class="footer-ch134"></div>
-<div class="footer-ch135"></div>
-<div class="footer-ch136"></div>
-
-
-</div>
-<div class="child2-footer" >
-<p  style=" direction: rtl; text-align:right;">راههای ارتباطی با ما</p>
-<h6 style=" background-image: url(06.jpg); background-repeat:repeat-x;">&nbsp;</h6>
-<ul style="float:left; width:170;" >
-<li ><a style=" display:inline; line-height:25px; " href="http://www.facebook.com" class="fb"><span>ارتباط در فیس بوک</span></a></li>
-<li><a style=" display:inline;line-height:25px; " href="http://www.twitter.com" class="tw"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در توییتر</span></a></li>
-<li ><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="yt"><span>&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در یوتیوب</span></a></li>
-<ul style=" margin:-74px 200px; width:150px " >
-  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>moravej.ir</span></a></li>
-  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>mirrezayi.ir</span></a></li>
-  <li><a style=" display:inline;line-height:25px; " href="http://www.youtube.com" class="felesh"><span>amin-tm.ir</span></a></li>
-</ul>
-</div>
-</div>
-<div class="amin"> </div>
-<div class="copy">
-  <p style="color:#888">Copyright &copy; 2012 AMIN Corporation. All right reserved. <a href="#" style=" text-decoration:none; border-bottom:1px solid #888; font-weight:normal; color:#888; ">&nbsp;&nbsp;Terms of use</a></p>
-</div>
-</div>
+    <div class="mum-footer">
+      <div class="child1-footer" >
+        <p >دانلود</p>
+        <h6 >&nbsp;</h6>
+        <div class="footer-ch131"><a href="http://toolsp30.mihanblog.com/post/51"><img  src="../Images/Footer/footer-somewhere.jpg" alt="somewhere else"/></a></div>
+        <div class="footer-ch132"><a href="http://baran-movie2.persianblog.ir/post/22/"><img src="../Images/Footer/footer-lost.jpg"  alt="download lost"/></a></div>
+        <div class="footer-ch133"><a href="http://www.2.mihanfilm.com/film/acion/567-danlvd-film-matrix-revolutions.html"><img src="../Images/Footer/footer-matrix.jpg"  alt="matrix"/></a></div>
+        <br/>
+        <div class="footer-ch134"><a href="http://toolsp30.mihanblog.com/post/51" > SOMEWHERE ELSE </a></div>
+        <div class="footer-ch135"><a href="http://baran-movie2.persianblog.ir/post/22/" > LOST </a></div>
+        <div class="footer-ch136"><a href="http://www.2.mihanfilm.com/film/acion/567-danlvd-film-matrix-revolutions.html" > MATRIX </a></div>
+      </div>
+      <div class="child2-footer" >
+        <p  >راههای ارتباطی با ما</p>
+        <h6 >&nbsp;</h6>
+        <ul  class="footer-ul1"  >
+          <li ><a  href="https://www.facebook.com/TheMatrixMovie" class="fb"><span>ارتباط در فیس بوک</span></a></li>
+          <li><a  href="http://twitter.com/MS_CYBER_MATRIX" class="tw"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در توییتر</span></a></li>
+          <li ><a  href="http://www.youtube.com/watch?v=XX8Y5-BZLaM" class="yt"><span>&nbsp;&nbsp;&nbsp;&nbsp;ارتباط در یوتیوب</span></a></li>
+        </ul>
+        <ul  class="footer-ul2" >
+          <li><a  href="mailto:sadegh.m11@gmail.com?subject=" class="felesh"><span>sadegh.m11@gmail.com</span></a></li>
+          <li><a  href="mailto:nowadays_M@yahoo.com?subject=" class="felesh"><span>nowadays_M@yahoo.com</span></a></li>
+          <li><a  href="mailto:amintayeranian@yahoo.com?subject=" class="felesh"><span>amintayeranian@yahoo.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--be farmane modir hazf gardid-->
+    <div class="copy">
+      <p >Copyright &copy; 2012 Freedom Group. All right reserved. </p>
+    </div>
+  </div>
 </div>
 </body>
 </html>
