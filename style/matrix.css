@@ -65,14 +65,10 @@ div.header-left {
 	margin: 0 10px;
 	border: 1px outset buttonface;
 	border-radius: 20px;
-	background-color: #F93;
+	background-color:transparent;
 	font-family: Tahoma, Geneva, sans-serif;
 	color:black;
 	font-size:14px;
-	-webkit-transition:all .5s;
-}
-.header-search:hover {
-	background-color:transparent;	
 }
 .header-sub {
 	float: left;
@@ -98,7 +94,7 @@ div.header-right {
 	margin:0 auto;
 	background:url(../images/Menu/bg.jpg) repeat-x;
 	position:relative;
-	margin-top:20px;	
+	margin-top:10px;	
 }
 .rhm1-left{
 	background:url(../images/Menu/left.jpg) no-repeat;
