@@ -216,11 +216,16 @@ div.up-main {
 .one1-p {
 	font-family: 'B Homa';
 	font-size:36px;
+	margin-bottom:10px;
+	text-shadow:0 0 3px #000;
 }
 .tow2-p {
 	font-family:Tahoma, Geneva, sans-serif;
-	font-size:14px;
-	line-height:30px;
+	font-size:13px;
+	line-height:25px;
+}
+.Bold {
+	font-weight:bold;
 }
 div.down-main {
 	height: 205px;
