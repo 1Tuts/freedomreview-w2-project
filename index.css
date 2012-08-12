@@ -38,11 +38,11 @@ h1, h2 {
 	src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
 }
 @font-face {
-	font-family: 'B Homa';
-	src: url(http://dlall.ir/web-font/homa.eot);
-	src: local('â˜º'), url(http://dlall.ir/web-font/homa.woff) format('woff'), url(http://dlall.ir/web-font/homa.ttf) format('truetype'), url(http://dlall.ir/web-font/homa.svg) format('svg');
-	font-weight: normal;
-	font-style: normal;
+font-family : "'B Homa'";
+src : url(http://dlall.ir/web-font/homa.eot);
+src : local('â˜º' ), url(http://dlall.ir/web-font/homa.woff) format('woff' ), url(http://dlall.ir/web-font/homa.ttf) format('truetype' ), url(http://dlall.ir/web-font/homa.svg) format('svg' );
+font-weight : normal;
+font-style : normal;
 }
 /*---------------- Header ---------------*/
 div.header {
@@ -418,6 +418,9 @@ div.footer-ch134 {
 	float : left;
 	color : rgb(0, 0, 0);
 	text-align : center;
+}
+div.footer-ch134 a, div.footer-ch135 a, div.footer-ch136 a {
+	color:#300;
 }
 div.footer-ch135 {
 	width : 141px;
