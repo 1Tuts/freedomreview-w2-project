@@ -91,24 +91,24 @@ div.header-right {
 	width:380px;
 	height:64px;
 	margin:0 auto;
-	background:url(../Images/Menu/bg.jpg) repeat-x;
+	background:url(http://dlall.ir/images/img-freeview/bgheader.jpg) repeat-x;
 	position:relative;
 	margin-top:10px;	
 }
 .rhm1-left{
-	background:url(../Images/Menu/left.jpg) no-repeat;
+	background:url(http://dlall.ir/images/img-freeview/headerleft.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:left;
 }
 .rhm1-right{
-	background:url(../Images/Menu/right.jpg) no-repeat;
+	background:url(http://dlall.ir/images/img-freeview/headerright.jpg) no-repeat;
 	width:15px;
 	height:64px;
 	float:right;
 }
 .menu{
-	background:url(../Images/Menu/bg.jpg) repeat-x;
+	background:url(http://dlall.ir/images/img-freeview/bgheader.jpg) repeat-x;
 	height:64px;
 	top:0;
 }
@@ -142,19 +142,19 @@ div.header-right {
 }
 .menu li.current a{
 	color:#fff;
-	background:url(../Images/Menu/hover-l.jpg) no-repeat left 5px;
+	background:url(http://dlall.ir/images/img-freeview/hoverleft.jpg) no-repeat left 5px;
 }
 .menu li.current a span{
 	color:#fff;
-	background:url(../Images/Menu/hover-r.jpg) no-repeat right 5px;
+	background:url(http://dlall.ir/images/img-freeview/hoverright.jpg) no-repeat right 5px;
 }
 .menu li a:hover{
 	color:#fff;
-	background:url(../Images/Menu/hover-l.jpg) no-repeat left 5px;
+	background:url(http://dlall.ir/images/img-freeview/hoverleft.jpg) no-repeat left 5px;
 }
 .menu li a:hover span{
 	color:#fff;
-	background:url(../Images/Menu/hover-r.jpg) no-repeat right 5px;
+	background:url(http://dlall.ir/images/img-freeview/hoverright.jpg) no-repeat right 5px;
 }
 /*Sub-Menu......
 div.menu li ul {
