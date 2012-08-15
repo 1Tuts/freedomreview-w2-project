@@ -28,8 +28,8 @@ Design in site bargerefte az site www.htc.com mibashad . ( b dalile sadegi va zi
 * [Mohammad Ali Mir Rezayi](https://github.com/MAMir) Technical Manager / Developer
 * [Amin Tayeranian](https://github.com/amintm) Technical Supporter / Developer
 * [Ali Abdollahi](https://github.com/aliab) Teacher / Adviser
-* [Ali Abdollahi](https://github.com/AliMD) Teacher / Adviser
-* [Ali Abdollahi](https://github.com/AliGH) Teacher / Adviser
+* [Ali Mihandoost](https://github.com/AliMD) Teacher / Adviser
+* [Ali aGHasizadeh](https://github.com/AliGH) Teacher / Adviser
 
 ### All rights reserved ###
 
