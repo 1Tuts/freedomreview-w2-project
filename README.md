@@ -3,7 +3,6 @@ www.freeview.ir
 
 in site dar morede naghdhaye yek montaghede cinema dar morede 2 film va 1 seryal hast.
 
-Design in site bargerefte az site www.htc.com mibashad . ( b dalile sadegi va zibayi tarahie site entekhab shod . )
 
 ###Contributing
 
