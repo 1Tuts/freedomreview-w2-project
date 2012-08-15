@@ -27,8 +27,8 @@ Design in site bargerefte az site www.htc.com mibashad . ( b dalile sadegi va zi
 * [Mohammad Sadegh Moravvej Khorasani](http://github.com/sadegh-n9) Team Manager / Director
 * [Mohammad Ali Mir Rezayi](https://github.com/MAMir) Technical Manager / Developer
 * [Amin Tayeranian](https://github.com/amintm) Technical Supporter / Developer
-
-
-
+* [Ali Abdollahi](https://github.com/aliab) Teacher / Adviser
+* [Ali Abdollahi](https://github.com/AliMD) Teacher / Adviser
+* [Ali Abdollahi](https://github.com/AliGH) Teacher / Adviser
 ### All rights reserved ###
 
