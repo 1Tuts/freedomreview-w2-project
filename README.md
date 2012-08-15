@@ -1,5 +1,5 @@
 ##freedom-review
-www.freereview.ir
+www.freeview.ir
 
 in site dar morede naghdhaye yek montaghede cinema dar morede 2 film va 1 seryal hast.
 
