@@ -33,15 +33,15 @@ h1, h2 {
 	display: none;
 }
 @font-face {
-	font-family: 'Metal Mania';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
+  font-family: 'Allan';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Allan'), url(fonts/allan.woff) format('woff');
 }
 @font-face {
 	font-family : "'B Homa'";
 	src : url(http://dlall.ir/web-font/homa.eot);
-	src : local('â˜º' ), url(http://dlall.ir/web-font/homa.woff) format('woff' ), url(http://dlall.ir/web-font/homa.ttf) format('truetype' ), url(http://dlall.ir/web-font/homa.svg) format('svg' );
+	src : local('â˜º' ), url(fonts/homa.woff) format('woff' ), url(fonts/homa.ttf) format('truetype' ), url(fonts/homa.svg) format('svg' );
 	font-weight : normal;
 	font-style : normal;
 }
@@ -265,14 +265,14 @@ div.content-right-up-main {
 .lost-a, .matrix-a, .jaee-digar-a {
 	text-decoration: none;
 	color: #000;
-	font-family: 'Metal Mania';
-	font-size: 31px;
+	font-family: Allan;
+	font-size: 36px;
 	display: block;
 	text-align: center;
 	font-weight: bold;
 	width: 90px;
-	margin: auto auto;
-	text-shadow: 2px 2px #900;
+	margin: 10px auto auto auto;
+	text-shadow: 1px 1px #666666;
 	-moz-transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 	-ms-transition: all 0.4s;
@@ -334,7 +334,7 @@ div.child0-down-main a p {
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	font-family: 'Metal Mania';
+	font-family: Allan;
 	position: absolute;
 	top: 25px;
 	left: 85px;
@@ -349,7 +349,7 @@ div.child0-down-main a {
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
 	font-size: 50px;
-	font-family: 'Metal Mania';
+	font-family: Allan;
 	color: #000;
 	transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
