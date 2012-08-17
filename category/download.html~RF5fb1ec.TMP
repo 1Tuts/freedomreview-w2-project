@@ -16,15 +16,11 @@ div.download {
 	height:430px;
 	float:left;
 	margin:40px 100px;
-	border: solid 1px #999999;
-	border-radius:10px; 
-	
 }
 div.download1 {
 	width:750px;
 	height:215px;
 	float:left;
-	
 }
 div.child1-download {
 	width:230px;
@@ -198,7 +194,7 @@ div.child6-download {
             <div class="child4-download">
               <div id="f_container1">
                 <div id="f_card1">
-                  <div class="front face1"> <img src="../Images/download/lost-down1.jpg" alt="matrix" /> </div>
+                  <div class="front face1"> <img  src="vila.jpg" /> </div>
                   <div class="back1 face1">
                     <p>ADDRES:</p>
                   </div>
@@ -208,7 +204,7 @@ div.child6-download {
             <div class="child5-download">
               <div id="f_container1">
                 <div id="f_card1">
-                  <div class="front face1"> <img src="../Images/download/lost-down2.jpg" alt="matrix" /> </div>
+                  <div class="front face1"> <img  src="vila.jpg" /> </div>
                   <div class="back1 face1">
                     <p>ADDRES:</p>
                   </div>
@@ -218,7 +214,7 @@ div.child6-download {
             <div class="child6-download">
               <div id="f_container1">
                 <div id="f_card1">
-                  <div class="front face1"> <img src="../Images/download/lost-down3.jpg" alt="matrix" /> </div>
+                  <div class="front face1"> <img  src="vila.jpg" /> </div>
                   <div class="back1 face1">
                     <p>ADDRES:</p>
                   </div>
