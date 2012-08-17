@@ -336,7 +336,7 @@ div.child0-down-main a p {
 	-o-transition: all 0.5s;
 	font-family: Allan;
 	position: absolute;
-	top: 25px;
+	top: 30px;
 	left: 85px;
 	color: #000;
 	text-shadow: 2px 2px #063;
@@ -365,7 +365,7 @@ div.child0-down-main a {
 	left: 115px;
 }
 #child3-down-main a p {
-	top: 20px;
+	top: 25px;
 	left: 40px;
 	line-height: 40px;
 }
