@@ -15,8 +15,7 @@ div.container {
 	width: 980px;
 	height: 1230px;
 	margin: 0 auto;
-	border-left: solid 3px #FFFFFF;
-	border-right: solid 3px #FFFFFF;
+	padding-right:2px;
 }
 div.clear {
 	width: 0;
