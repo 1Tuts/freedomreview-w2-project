@@ -204,7 +204,7 @@ div.content-right-up-main {
 	width: 328px;
 	height: 545px;
 	float: right;
-	background-image: url(Images/Main/back-2.jpg);
+	background-image: url(images/main/bg-right-main.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
@@ -212,10 +212,10 @@ div.content-right-up-main {
 	width: 322px;
 	height: 166.66px;
 	border: dotted 3px gray;
-	-moz-border-image: url(Images/Main/border.jpg) 5 1 5 5 stretch stretch;
-	-o-border-image: url(Images/Main/border.jpg) 5 1 5 5 stretch stretch;
-	-webkit-border-image: url(Images/Main/border.jpg) 5 1 5 10 stretch stretch;
-	border-image: url(Images/Main/border.jpg) 5 1 5 10 stretch stretch;
+	-moz-border-image: url(images/main/border.jpg) 5 1 5 5 stretch stretch;
+	-o-border-image: url(images/main/border.jpg) 5 1 5 5 stretch stretch;
+	-webkit-border-image: url(images/main/border.jpg) 5 1 5 10 stretch stretch;
+	border-image: url(images/main/border.jpg) 5 1 5 10 stretch stretch;
 	margin-bottom: 5px;
 }
 .lost p, .matrix p, .jaee-digar p {
@@ -261,8 +261,6 @@ div.content-right-up-main {
 div.down-main {
 	height: 205px;
 	width: 980px;
-	background-image: url();
-	background-repeat: repeat-x;
 	padding: 1px 0px 0px 0px;
 	margin-top:30px;
 }
@@ -273,7 +271,7 @@ div.child-down-main {
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
 	padding: 16px 11px 13px 11px;
-	background-image: url(Images/Main/back-3.jpg);
+	background-image: url(images/main/bg-down-main.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {

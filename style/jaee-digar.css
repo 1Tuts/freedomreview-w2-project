@@ -205,7 +205,7 @@ div.up-main {
 	text-align:right;
 	text-align:justify;
 	border:20px solid #999;
-	border-image:url(../Images/Main/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
+	border-image:url(../images/main/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
 	box-shadow:0 0 15px #000;
 }
 .one1-p {
@@ -236,7 +236,7 @@ div.child-down-main {
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
 	padding: 16px 11px 13px 11px;
-	background-image: url(../Images/Main/back-3.jpg);
+	background-image: url(../images/main/bg-down-main.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {
