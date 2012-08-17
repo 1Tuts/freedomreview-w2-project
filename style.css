@@ -22,6 +22,7 @@ div.clear {
 	width: 0;
 	height: 0;
 	clear: both;
+	overflow:hidden;
 }
 div.up-header {
 	width: 980px;
@@ -200,6 +201,46 @@ div.content-left-up-main {
 	height: 545px;
 	float: left;
 }
+
+
+div.slideshow{
+	width    : 600px;
+	overflow : hidden;
+	margin   : 0 auto;
+}
+div.slideshow .train{
+	width    : 3100px;
+	position : relative;
+	-webkit-transition : left 916ms;
+}
+div.slideshow .train > div{
+	float : left;
+}
+div.slideshow .train > div > img{
+	display : block;
+}
+div.slideshow ul.btns{
+	list-style-type : none;
+	margin-top:10px;
+}
+div.slideshow li{
+	width:25px;
+	height:13px;
+	background-color:#C00;
+	border-radius:25%;
+	float: left;
+	margin-right:25px;
+	-webkit-transition : all 800ms;
+}
+div.slideshow li:hover{
+	background-color:#C00;
+	height: 19px;
+	width:31px;
+	margin-top:-3px;
+	-webkit-transition : all 200ms;
+}
+
+
 div.content-right-up-main {
 	width: 328px;
 	height: 545px;
