@@ -491,9 +491,8 @@ div.child1-footer p, div.child2-footer p {
 	text-align : right;
 	font-family : 'B Homa';
 }
-
 div.child1-footer h6, div.child2-footer h6 {
-	background-image : url(Images/Footer/footer-line.jpg);
+	background-image:url(../Images/Footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
@@ -537,7 +536,7 @@ div.footer-ch134 {
 	text-align : center;
 }
 div.footer-ch134 a, div.footer-ch135 a, div.footer-ch136 a {
-	color: #300;
+	color:#300;
 }
 div.footer-ch135 {
 	width : 141px;
@@ -564,7 +563,7 @@ div.child2-footer {
 	font-size : 14px;
 }
 .fb {
-	background-image : url(Images/Footer/facebook.jpg);
+	background-image:url(../Images/Footer/facebook.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -574,7 +573,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .tw {
-	background-image : url(Images/Footer/tiwtter.jpg);
+	background-image : url(../Images/Footer/tiwtter.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -584,7 +583,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .yt {
-	background-image : url(Images/Footer/youtube.jpg);
+	background-image : url(../Images/Footer/youtube.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -594,7 +593,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .felesh {
-	background-image : url(Images/Footer/footer04.jpg);
+	background-image : url(../Images/Footer/footer04.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -607,5 +606,5 @@ div.child2-footer {
 	width : 570px;
 	height : 25px;
 	color : #888;
-	margin: 25px 45px;
+	margin:25px 45px;
 }
