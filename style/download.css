@@ -169,7 +169,6 @@ div.menu li ul {
 div.menu li:hover ul {
 	display:block;
 }
-
 /*.sub1,.sub2,.sub3{
 	background:url(images/rhm1_sub_l.gif) no-repeat left 5px;
 	
@@ -181,22 +180,22 @@ div.menu li:hover ul {
 	float:right;
 }*/
 .sub3 {
-		float:left;
-		width:100px;	
+	float:left;
+	width:100px;
 }
 div.menu li li {
 	float:none;
 }
 div.menu li li a {
-		max-width:90px;
-		top:0;
-		height:50px;
-		direction:rtl;
-		background-image:url(../Images/menu/sub-bg.jpg);	
-		background-size:0 50px;
-		white-space:nowrap;
+	max-width:90px;
+	top:0;
+	height:50px;
+	direction:rtl;
+	background-image:url(../Images/menu/sub-bg.jpg);
+	background-size:0 50px;
+	white-space:nowrap;
 }
-div.menu li li a:hover  {
+div.menu li li a:hover {
 	color:#fff;
 	background-image:url(../Images/menu/sub-bg.jpg);
 }
@@ -261,7 +260,7 @@ div.child6-download {
 	float:right;
 	margin:10px 10px;
 }
-/*------------shoro childs-download------------*/
+/*------------shoro childs-download--- transform----transition---------*/
 #f_container1 {
 	position: relative;
 	margin:0px;
@@ -326,7 +325,7 @@ div.child6-download {
 	text-align: center;
 }
 .face1.back1 p {
-	color: rgb(51,51,51)  ;
+	color: rgb(51,51,51);
 	direction: rtl;
 	text-align: right;
 	font-family: Tahoma, Geneva, sans-serif;
@@ -498,6 +497,8 @@ div.child1-footer h6, div.child2-footer h6 {
 div.child1-footer a {
 	text-decoration : none;
 }
+/*---- div samte riste shamele 2 ul mibashad----*/
+
 .footer-ul1 {
 	float : left;
 }
@@ -562,6 +563,7 @@ div.child2-footer {
 	margin-top : 10px;
 	font-size : 14px;
 }
+/*----- axe poshte link ha-----*/
 .fb {
 	background-image:url(../Images/Footer/facebook.jpg);
 	background-repeat : no-repeat;

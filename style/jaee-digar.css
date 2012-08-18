@@ -9,7 +9,6 @@ body {
 	background-image:url(../images/negativ2.jpg);
 }
 div {
-	
 }
 div.container {
 	background-color: #FFF;
@@ -33,17 +32,17 @@ h1, h2 {
 	display:none;
 }
 @font-face {
-  font-family: 'Metal Mania';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
+	font-family: 'Metal Mania';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
 }
 @font-face {
-font-family : "'B Homa'";
-src : url(http://dlall.ir/web-font/homa.eot);
-src : local('â˜º' ), url(http://dlall.ir/web-font/homa.woff) format('woff' ), url(http://dlall.ir/web-font/homa.ttf) format('truetype' ), url(http://dlall.ir/web-font/homa.svg) format('svg' );
-font-weight : normal;
-font-style : normal;
+	font-family : "'B Homa'";
+	src : url(http://dlall.ir/web-font/homa.eot);
+	src : local('â˜º' ), url(http://dlall.ir/web-font/homa.woff) format('woff' ), url(http://dlall.ir/web-font/homa.ttf) format('truetype' ), url(http://dlall.ir/web-font/homa.svg) format('svg' );
+	font-weight : normal;
+	font-style : normal;
 }
 /*---------------- Header ---------------*/
 div.header {
@@ -170,7 +169,6 @@ div.menu li ul {
 div.menu li:hover ul {
 	display:block;
 }
-
 /*.sub1,.sub2,.sub3{
 	background:url(images/rhm1_sub_l.gif) no-repeat left 5px;
 	
@@ -182,22 +180,22 @@ div.menu li:hover ul {
 	float:right;
 }*/
 .sub3 {
-		float:left;
-		width:100px;	
+	float:left;
+	width:100px;
 }
 div.menu li li {
 	float:none;
 }
 div.menu li li a {
-		max-width:90px;
-		top:0;
-		height:50px;
-		direction:rtl;
-		background-image:url(../Images/menu/sub-bg.jpg);	
-		background-size:0 50px;
-		white-space:nowrap;
+	max-width:90px;
+	top:0;
+	height:50px;
+	direction:rtl;
+	background-image:url(../Images/menu/sub-bg.jpg);
+	background-size:0 50px;
+	white-space:nowrap;
 }
-div.menu li li a:hover  {
+div.menu li li a:hover {
 	color:#fff;
 	background-image:url(../Images/menu/sub-bg.jpg);
 }
@@ -363,6 +361,8 @@ div.child1-footer h6, div.child2-footer h6 {
 div.child1-footer a {
 	text-decoration : none;
 }
+/*---- div samte riste shamele 2 ul mibashad----*/
+
 .footer-ul1 {
 	float : left;
 }
@@ -427,6 +427,7 @@ div.child2-footer {
 	margin-top : 10px;
 	font-size : 14px;
 }
+/*----- axe poshte link ha-----*/
 .fb {
 	background-image:url(../Images/Footer/facebook.jpg);
 	background-repeat : no-repeat;
