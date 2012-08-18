@@ -32,10 +32,10 @@ h1, h2 {
 	display:none;
 }
 @font-face {
-  font-family: 'Allan';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Allan'), url(fonts/allan.woff) format('woff');
+	font-family: 'Allan';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Allan'), url(fonts/allan.woff) format('woff');
 }
 @font-face {
 	font-family : "'B Homa'";
@@ -260,7 +260,9 @@ div.child6-download {
 	float:right;
 	margin:10px 10px;
 }
-.link-download:hover { opacity:.7}
+.link-download:hover {
+	opacity:.7
+}
 /*------------shoro childs-download--- transform----transition---------*/
 #f_container1 {
 	position: relative;
