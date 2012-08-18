@@ -407,7 +407,7 @@ div.child1-footer p, div.child2-footer p {
 	font-family : 'B Homa';
 }
 div.child1-footer h6, div.child2-footer h6 {
-	background-image : url(Images/Footer/footer06.jpg);
+	background-image : url(Images/Footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
@@ -478,7 +478,7 @@ div.child2-footer {
 	font-size : 14px;
 }
 .fb {
-	background-image : url(Images/Footer/footer01.jpg);
+	background-image : url(Images/Footer/facebook.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -488,7 +488,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .tw {
-	background-image : url(Images/Footer/footer02.jpg);
+	background-image : url(Images/Footer/tiwtter.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -498,7 +498,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .yt {
-	background-image : url(Images/Footer/footer03.jpg);
+	background-image : url(Images/Footer/youtube.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -521,5 +521,5 @@ div.child2-footer {
 	width : 570px;
 	height : 25px;
 	color : #888;
-	margin-top: 25px;
+	margin: 25px 45px;
 }
