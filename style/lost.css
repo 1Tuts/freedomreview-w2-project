@@ -33,17 +33,17 @@ h1, h2 {
 	display:none;
 }
 @font-face {
-  font-family: 'Metal Mania';
+  font-family: 'Allan';
   font-style: normal;
-  font-weight: 400;
-  src: local('Metal Mania'), local('MetalMania-Regular'), url(http://dlall.ir/web-font/Metal-Mania.woff) format('woff');
+  font-weight: 700;
+  src: local('Allan'), url(fonts/allan.woff) format('woff');
 }
 @font-face {
-font-family : "'B Homa'";
-src : url(http://dlall.ir/web-font/homa.eot);
-src : local('â˜º' ), url(http://dlall.ir/web-font/homa.woff) format('woff' ), url(http://dlall.ir/web-font/homa.ttf) format('truetype' ), url(http://dlall.ir/web-font/homa.svg) format('svg' );
-font-weight : normal;
-font-style : normal;
+	font-family : "'B Homa'";
+	src : url(http://dlall.ir/web-font/homa.eot);
+	src : local('â˜º' ), url(fonts/homa.woff) format('woff' ), url(fonts/homa.ttf) format('truetype' ), url(fonts/homa.svg) format('svg' );
+	font-weight : normal;
+	font-style : normal;
 }
 /*---------------- Header ---------------*/
 div.header {
