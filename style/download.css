@@ -206,7 +206,143 @@ div.menu li li a:hover  {
 }*/
 /*Sub-Menu*/
 /*Menu*/
-/*Main MAMir*/
+/*Main amin*/
+
+
+div.download {
+	width:750px;
+	height:430px;
+	float:left;
+	margin:40px 100px;
+	border: solid 1px #999999;
+	border-radius:10px;
+}
+div.download1 {
+	width:750px;
+	height:215px;
+	float:left;
+}
+div.child1-download {
+	width:230px;
+	height:195px;
+	float:left;
+	margin:10px;
+}
+div.child2-download {
+	width:230px;
+	height:195px;
+	float:left;
+	margin:10px;
+}
+div.child3-download {
+	width:230px;
+	height:195px;
+	margin:10px 510px;
+}
+div.download2 {
+	width:750px;
+	height:215px;
+}
+div.child4-download {
+	width:230px;
+	height:195px;
+	float:left;
+	margin:10px;
+}
+div.child5-download {
+	width:230px;
+	height:195px;
+	float:left;
+	margin:10px;
+}
+div.child6-download {
+	width:230px;
+	height:195px;
+	float:right;
+	margin:10px 10px;
+}
+/*------------shoro childs-download------------*/
+#f_container1 {
+	position: relative;
+	margin:0px;
+	width: 230px;
+	height: 195px;
+	z-index: 1;
+}
+.face1.back1 {
+	display: none;
+}
+#f_container1 {
+	-webkit-perspective: 1000;
+}
+#f_card1 {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1.0s linear;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: all 1.0s linear;
+	-o-transform-style: preserve-3d;
+	-o-transition: all 1.0s linear;
+	-ms-transform-style: preserve-3d;
+	-ms-transition: all 1.0s linear;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+}
+#f_container1:hover #f_card1 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.face1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.face1.back1 {
+	display: block;
+	-webkit-transform: rotateY(180deg);
+	-webkit-box-sizing: border-box;
+	-moz-transform: rotateY(180deg);
+	-moz-box-sizing: border-box;
+	-o-transform: rotateY(180deg);
+	-o-box-sizing: border-box;
+	-ms-transform: rotateY(180deg);
+	-ms-box-sizing: border-box;
+	transform: rotateY(180deg);
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #ddc;
+}
+.face1.back1 h5 {
+	color: rgb(51,51,51);
+	text-align: center;
+}
+.face1.back1 p {
+	color: rgb(51,51,51)  ;
+	direction: rtl;
+	text-align: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 30px;
+	font-size: 14px;
+}
+.face1.back1 a {
+	text-decoration:none;
+	color:rgb(51,51,51);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+/*----------------- payan childs-download-------*/
+
+
+
+
 div.main {
 	width: auto;
 	height: 756px;
@@ -328,6 +464,7 @@ div.child0-down-main a {
 }
 /*End Main MAMir*/
 /*---------------- Footer --------------- */
+
 div.footer {
 	width : auto;
 	min-height : 261px;
@@ -354,8 +491,9 @@ div.child1-footer p, div.child2-footer p {
 	text-align : right;
 	font-family : 'B Homa';
 }
+
 div.child1-footer h6, div.child2-footer h6 {
-	background-image:url(../Images/Footer/footer06.jpg);
+	background-image : url(Images/Footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
@@ -399,7 +537,7 @@ div.footer-ch134 {
 	text-align : center;
 }
 div.footer-ch134 a, div.footer-ch135 a, div.footer-ch136 a {
-	color:#300;
+	color: #300;
 }
 div.footer-ch135 {
 	width : 141px;
@@ -426,7 +564,7 @@ div.child2-footer {
 	font-size : 14px;
 }
 .fb {
-	background-image:url(../Images/Footer/footer01.jpg);
+	background-image : url(Images/Footer/facebook.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -436,7 +574,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .tw {
-	background-image : url(../Images/Footer/footer02.jpg);
+	background-image : url(Images/Footer/tiwtter.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -446,7 +584,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .yt {
-	background-image : url(../Images/Footer/footer03.jpg);
+	background-image : url(Images/Footer/youtube.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -456,7 +594,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .felesh {
-	background-image : url(../Images/Footer/footer04.jpg);
+	background-image : url(Images/Footer/footer04.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -469,5 +607,5 @@ div.child2-footer {
 	width : 570px;
 	height : 25px;
 	color : #888;
-	margin-top:25px;
+	margin: 25px 45px;
 }
