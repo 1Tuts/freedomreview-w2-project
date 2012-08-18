@@ -260,7 +260,7 @@ div.child6-download {
 	float:right;
 	margin:10px 10px;
 }
-.link-download:hover { opacity:.7}
+.link-download:hover { opacity:.8}
 /*------------shoro childs-download--- transform----transition---------*/
 #f_container1 {
 	position: relative;
