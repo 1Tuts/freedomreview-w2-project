@@ -32,10 +32,10 @@ h1, h2 {
 	display: none;
 }
 @font-face {
-  font-family: 'Allan';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Allan'), url(fonts/allan.woff) format('woff');
+	font-family: 'Allan';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Allan'), url(fonts/allan.woff) format('woff');
 }
 @font-face {
 	font-family : "'B Homa'";
@@ -169,7 +169,6 @@ div.menu li ul {
 div.menu li:hover ul {
 	display:block;
 }
-
 /*.sub1,.sub2,.sub3{
 	background:url(images/rhm1_sub_l.gif) no-repeat left 5px;
 	
@@ -181,22 +180,22 @@ div.menu li:hover ul {
 	float:right;
 }*/
 .sub3 {
-		float:left;
-		width:100px;	
+	float:left;
+	width:100px;
 }
 div.menu li li {
 	float:none;
 }
 div.menu li li a {
-		max-width:90px;
-		top:0;
-		height:50px;
-		direction:rtl;
-		background-image:url(../Images/menu/sub-bg.jpg);	
-		background-size:0 50px;
-		white-space:nowrap;
+	max-width:90px;
+	top:0;
+	height:50px;
+	direction:rtl;
+	background-image:url(../Images/menu/sub-bg.jpg);
+	background-size:0 50px;
+	white-space:nowrap;
 }
-div.menu li li a:hover  {
+div.menu li li a:hover {
 	color:#fff;
 	background-image:url(../Images/menu/sub-bg.jpg);
 }
@@ -215,37 +214,37 @@ div.up-main {
 	height: 550px;
 	width: 100%;
 }
-div.topic{
-		width:980px;
-		min-height:40px;
-		float:right;
-		background-color:#CCC;	
+div.topic {
+	width:980px;
+	min-height:40px;
+	float:right;
+	background-color:#CCC;
 }
 div.topic p {
-		font-family:Tahoma, Geneva, sans-serif;
-		text-align:right;
-		color:#000;
-		font-size:24px;
-		font-weight:bold;	
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:right;
+	color:#000;
+	font-size:24px;
+	font-weight:bold;
 }
 div.contain {
-		width:auto;
-		height:510px;
-		background-color:transparent;
-		border:4px dashed  #666;
-		-webkit-border-radius:30px;
-		margin-top:10px;	
+	width:auto;
+	height:510px;
+	background-color:transparent;
+	border:4px dashed #666;
+	-webkit-border-radius:30px;
+	margin-top:10px;
 }
 div.contain p {
-		direction:rtl;
-		font-family:Tahoma, Geneva, sans-serif;
-		text-align:right;
-		color:#000;
-		font-size:14px;
-		font-weight:bold;
-		margin-right: 15px;
-		margin-top:10px;
-		line-height:40px;
+	direction:rtl;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:right;
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	margin-right: 15px;
+	margin-top:10px;
+	line-height:40px;
 }
 div.down-main {
 	height: 205px;
@@ -333,118 +332,151 @@ div.child0-down-main a {
 	margin-right:2px;
 }
 /*End Main MAMir*/
+
 /*---------------- Footer --------------- */
 div.footer {
-	width: auto;
-	min-height: 261px;
-	padding: 1px 0px 0px 0px;
+	width : auto;
+	min-height : 261px;
+	padding : 1px 0 0 0;
 }
 div.mum-footer {
-	height: 156px;
-	width: 883px;
-	margin: 39.5px 46px;
-	border: 1px solid #B7B5B2;
-	border-top: 1px solid #999;
-	border-radius: 10px;
-	padding-top: 1px;
+	height : 130px;
+	width : 883px;
+	margin: 70px 46px 10px 46px;
+	border : #b7b5b2 solid 1px;
+	border-top : 1px solid #999;
+	border-radius : 10px;
+	padding-top : 1px;
 }
 div.child1-footer {
-	height: 135px;
-	width: 425px;
-	margin: 10px 10px;
-	float: left;
+	height : 115px;
+	width : 425px;
+	margin : 10px 10px;
+	float : left;
+	font-size : 14px;
 }
-/*--------------div haye seryalha------------*/
-/*----- in ghesmat hanoz niaz be virayesh darad--http://iranfilm11.com/---*/
+div.child1-footer p, div.child2-footer p {
+	direction : rtl;
+	text-align : right;
+	font-family : 'B Homa';
+}
+div.child1-footer h6, div.child2-footer h6 {
+	background-image:url(../Images/Footer/footer-line.jpg);
+	background-repeat : repeat-x;
+}
+div.child1-footer a {
+	text-decoration : none;
+}
+/*---- div samte riste shamele 2 ul mibashad----*/
+
+.footer-ul1 {
+	float : left;
+}
+.footer-ul2 {
+	margin : 0 200px;
+	width : 150px;
+}
+.footer img:hover {
+	opacity : 0.800000011920928955078125;
+}
+.fb:hover, .tw:hover, .yt:hover, .felesh:hover {
+	opacity : 0.800000011920928955078125;
+}
 div.footer-ch131 {
-	width: 137px;
-	height: 43px;
-	float: left;
-	border-right:groove 4px #fff;
+	width : 137px;
+	height : 43px;
+	float : left;
+	border-right : 4px groove #fff;
 }
 div.footer-ch132 {
-	width: 137px;
-	height: 43px;
-	float: left;
-	border-right:groove 4px #fff;
+	width : 137px;
+	height : 43px;
+	float : left;
+	border-right : 4px groove #fff;
 }
 div.footer-ch133 {
-	width: 139px;
-	height: 43px;
-	margin-left: 282px;
+	width : 139px;
+	height : 43px;
+	margin-left : 282px;
 }
 div.footer-ch134 {
-	width: 141px;
-	height: 43px;
-	float: left;
-	color:#000000;
+	width : 141px;
+	height : 23px;
+	float : left;
+	color : rgb(0, 0, 0);
+	text-align : center;
+}
+div.footer-ch134 a, div.footer-ch135 a, div.footer-ch136 a {
+	color:#300;
 }
 div.footer-ch135 {
-	width: 141px;
-	height: 43px;
-	float: left;
-	color:#000000;
+	width : 141px;
+	height : 23px;
+	float : left;
+	color : rgb(0, 0, 0);
+	text-align : center;
 }
 div.footer-ch136 {
-	width: 141px;
-	height: 43px;
-	margin-left: 282px;
-	color:#000000;
+	width : 141px;
+	height : 23px;
+	margin-left : 282px;
+	color : rgb(0, 0, 0);
+	text-align : center;
 }
 .footer-ch134:hover a, .footer-ch136:hover a, .footer-ch135:hover a {
-	color: #678;
+	color : #678;
 }
-/*--------------payane div haye seryalha------------*/
 div.child2-footer {
-	height: 135px;
-	width: 427px;
-	margin-left: 445px;
-	margin-top: 10px;
+	height : 115px;
+	width : 427px;
+	margin-left : 445px;
+	margin-top : 10px;
+	font-size : 14px;
 }
+/*----- axe poshte link ha-----*/
 .fb {
-	background-image: url(../Images/Footer/footer01.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
+	background-image:url(../Images/Footer/facebook.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .tw {
-	background-image: url(../Images/Footer/footer02.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
+	background-image : url(../Images/Footer/tiwtter.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .yt {
-	background-image: url(../Images/Footer/footer03.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
+	background-image : url(../Images/Footer/youtube.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .felesh {
-	background-image:url(../Images/Footer/footer04.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 30px;
-	color: #999999;
-	text-decoration: none;
+	background-image : url(../Images/Footer/footer04.jpg);
+	background-repeat : no-repeat;
+	background-position : center left;
+	padding-left : 30px;
+	color : #999999;
+	text-decoration : none;
+	display : inline;
+	line-height : 25px;
 }
 .copy {
-	width: 570px;
-	height: 35px;
-	margin: 35px 70px;
-	color:#888;
-	border-bottom:1px groove #888;
-}
-.copy a {
-	color:#888;
-}
-.copy:hover a {
-	color:#000000;
-	border-bottom: none;
-	text-shadow: #678;
+	width : 570px;
+	height : 25px;
+	color : #888;
+	margin:25px 45px;
 }
