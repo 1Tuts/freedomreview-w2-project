@@ -35,12 +35,12 @@ h1, h2 {
 	font-family: 'Allan';
 	font-style: normal;
 	font-weight: 700;
-	src: local('Allan'), url(fonts/allan.woff) format('woff');
+	src: local('Allan'), url(../fonts/allan.woff) format('woff');
 }
 @font-face {
 	font-family : "'B Homa'";
-	src : url(http://dlall.ir/web-font/homa.eot);
-	src : local('â˜º' ), url(fonts/homa.woff) format('woff' ), url(fonts/homa.ttf) format('truetype' ), url(fonts/homa.svg) format('svg' );
+	src : url(../fonts/homa.eot);
+	src : local('â˜º' ), url(../fonts/homa.woff) format('woff' ), url(../fonts/homa.ttf) format('truetype' ), url(../fonts/homa.svg) format('svg' );
 	font-weight : normal;
 	font-style : normal;
 }
@@ -286,22 +286,22 @@ div.child0-down-main a p {
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	font-family: 'Metal Mania';
+	font-family: Allan;
 	position: absolute;
-	top: 25px;
+	top: 30px;
 	left: 85px;
 	color: #000;
 	text-shadow: 2px 2px #063;
 	visibility: hidden;
-	font-size:9px;
+	font-size: 9px;
 }
 div.child0-down-main a {
-	text-decoration:none;
+	text-decoration: none;
 }
 #child1-down-main a:hover p, #child2-down-main a:hover p, #child3-down-main a:hover p {
 	visibility: visible;
 	font-size: 50px;
-	font-family: 'Metal Mania';
+	font-family: Allan;
 	color: #000;
 	transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
@@ -317,19 +317,19 @@ div.child0-down-main a {
 	left: 115px;
 }
 #child3-down-main a p {
-	top:20px;
+	top: 25px;
 	left: 40px;
-	line-height:40px;
+	line-height: 40px;
 }
 #child2-down-main {
 	float: right;
 }
 #child3-down-main {
 	margin: 0px 263px;
-	width:250px;
+	width: 250px;
 }
 #child1-down-main, #child2-down-main {
-	margin-right:2px;
+	margin-right: 2px;
 }
 /*End Main MAMir*/
 
