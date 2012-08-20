@@ -354,7 +354,7 @@ div.child1-footer p, div.child2-footer p {
 	font-family : 'B Homa';
 }
 div.child1-footer h6, div.child2-footer h6 {
-	background-image:url(../Images/Footer/footer-line.jpg);
+	background-image:url(../images/footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
