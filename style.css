@@ -540,8 +540,8 @@ div.child2-footer {
 	line-height : 25px;
 }
 .copy {
-	width : 570px;
-	height : 25px;
-	color : #888;
-	margin: 25px 45px;
+	width:265px;
+	font-size:12px;
+	color:#666;
+	margin:30px auto auto auto;
 }
