@@ -354,7 +354,7 @@ div.child1-footer p, div.child2-footer p {
 	font-family : 'B Homa';
 }
 div.child1-footer h6, div.child2-footer h6 {
-	background-image:url(../Images/Footer/footer-line.jpg);
+	background-image:url(../images/footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
@@ -428,7 +428,7 @@ div.child2-footer {
 }
 /*----- axe poshte link ha-----*/
 .fb {
-	background-image:url(../Images/Footer/facebook.jpg);
+	background-image:url(../images/footer/facebook.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -438,7 +438,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .tw {
-	background-image : url(../Images/Footer/tiwtter.jpg);
+	background-image : url(../images/footer/tiwtter.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -448,7 +448,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .yt {
-	background-image : url(../Images/Footer/youtube.jpg);
+	background-image : url(../images/footer/youtube.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -458,7 +458,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .felesh {
-	background-image : url(../Images/Footer/footer04.jpg);
+	background-image : url(../images/footer/footer04.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;

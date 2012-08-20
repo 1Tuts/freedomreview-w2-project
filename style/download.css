@@ -6,7 +6,7 @@
 	padding: 0;
 }
 body {
-	background-image:url(../Images/negativ2.jpg);
+	background-image:url(../images/negativ2.jpg);
 }
 div {
 }
@@ -90,24 +90,24 @@ div.header-right {
 	width: 630px;
 	height: 64px;
 	margin: 0 auto;
-	background: url(../Images/menu/bgmenu.jpg) repeat-x;
+	background: url(../images/menu/bgmenu.jpg) repeat-x;
 	position: relative;
 	margin-top: 10px;
 }
 .rhm1-left {
-	background: url(../Images/menu/menu-left.jpg) no-repeat;
+	background: url(../images/menu/menu-left.jpg) no-repeat;
 	width: 15px;
 	height: 64px;
 	float: left;
 }
 .rhm1-right {
-	background:url(../Images/menu/menu-right.jpg) no-repeat;
+	background:url(../images/menu/menu-right.jpg) no-repeat;
 	width: 15px;
 	height: 64px;
 	float: right;
 }
 .menu {
-	background: url(../Images/menu/bgmenu.jpg) repeat-x;
+	background: url(../images/menu/bgmenu.jpg) repeat-x;
 	height: 64px;
 	top: 0;
 }
@@ -142,19 +142,19 @@ div.header-right {
 }
 .menu li.current a {
 	color: #fff;
-	background: url(../Images/menu/hover-left.jpg) no-repeat left 5px;
+	background: url(../images/menu/hover-left.jpg) no-repeat left 5px;
 }
 .menu li.current a span {
 	color: #fff;
-	background:url(../Images/menu/hover-right.jpg) no-repeat right 5px;
+	background:url(../images/menu/hover-right.jpg) no-repeat right 5px;
 }
 .menu > ul > li > a:hover {
 	color: #fff;
-	background: url(../Images/menu/hover-left.jpg) no-repeat left 5px;
+	background: url(../images/menu/hover-left.jpg) no-repeat left 5px;
 }
 .menu > ul > li > a:hover span {
 	color: #fff;
-	background: url(../Images/menu/hover-right.jpg) no-repeat right 5px;
+	background: url(../images/menu/hover-right.jpg) no-repeat right 5px;
 }
 /*Sub-Menu*/
 div.menu li ul {
@@ -191,13 +191,13 @@ div.menu li li a {
 	top:0;
 	height:50px;
 	direction:rtl;
-	background-image:url(../Images/menu/sub-bg.jpg);
+	background-image:url(../images/menu/sub-bg.jpg);
 	background-size:0 50px;
 	white-space:nowrap;
 }
 div.menu li li a:hover {
 	color:#fff;
-	background-image:url(../Images/menu/sub-bg.jpg);
+	background-image:url(../images/menu/sub-bg.jpg);
 }
 /*div.menu li li a:hover span{
 		color:#fff;
@@ -361,7 +361,7 @@ div.up-main {
 	text-align:right;
 	text-align:justify;
 	border:20px solid #999;
-	border-image:url(../Images/Main/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
+	border-image:url(../images/main/border-image-20x20.jpg) 20 20 20 20 stretch stretch;
 	box-shadow:0 0 15px #000;
 }
 .one1-p {
@@ -392,7 +392,7 @@ div.child-down-main {
 	border: 1px solid #B7B5B2;
 	border-radius: 10px;
 	padding: 16px 11px 13px 11px;
-	background-image: url(../Images/Main/bg-down-main.jpg);
+	background-image: url(../images/main/bg-down-main.jpg);
 	background-repeat: no-repeat;
 }
 div.child0-down-main {
@@ -493,7 +493,7 @@ div.child1-footer p, div.child2-footer p {
 	font-family : 'B Homa';
 }
 div.child1-footer h6, div.child2-footer h6 {
-	background-image:url(../Images/Footer/footer-line.jpg);
+	background-image:url(../images/footer/footer-line.jpg);
 	background-repeat : repeat-x;
 }
 div.child1-footer a {
@@ -567,7 +567,7 @@ div.child2-footer {
 }
 /*----- axe poshte link ha-----*/
 .fb {
-	background-image:url(../Images/Footer/facebook.jpg);
+	background-image:url(../images/footer/facebook.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -577,7 +577,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .tw {
-	background-image : url(../Images/Footer/tiwtter.jpg);
+	background-image : url(../images/footer/tiwtter.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -587,7 +587,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .yt {
-	background-image : url(../Images/Footer/youtube.jpg);
+	background-image : url(../images/footer/youtube.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
@@ -597,7 +597,7 @@ div.child2-footer {
 	line-height : 25px;
 }
 .felesh {
-	background-image : url(../Images/Footer/footer04.jpg);
+	background-image : url(../images/footer/footer04.jpg);
 	background-repeat : no-repeat;
 	background-position : center left;
 	padding-left : 30px;
